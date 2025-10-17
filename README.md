@@ -491,9 +491,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Targeting: MLE / Applied Scientist roles at Apple, Google, and other FAANG companies
 
 **Contact:**
-- LinkedIn: [your-linkedin]
-- Email: [your-email]
-- Portfolio: [your-portfolio]
+- LinkedIn: [linkedin.com/in/namanchoudhary](https://www.linkedin.com/in/namanchoudhary/)
+- Portfolio: [naman-choudhary-ai-ml.github.io](https://naman-choudhary-ai-ml.github.io/)
 
 ---
 
