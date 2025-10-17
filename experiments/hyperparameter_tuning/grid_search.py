@@ -140,6 +140,7 @@ def evaluate_config(queries_data, search_system, config, top_k=50):
 
     all_relevances = []
     all_total_relevant = []
+    all_ground_truth_relevances = []
 
     for query, data in queries_data.items():
         # Perform search
@@ -157,12 +158,14 @@ def evaluate_config(queries_data, search_system, config, top_k=50):
         doc_to_relevance = {doc_id: rel for doc_id, rel in zip(data['document_ids'], data['relevances'])}
         relevances = [doc_to_relevance.get(doc_id, 0) for doc_id in retrieved_docs]
         total_relevant = sum(1 for rel in data['relevances'] if rel > 0)
+        ground_truth_relevances = data['relevances']
 
         all_relevances.append(relevances)
         all_total_relevant.append(total_relevant)
+        all_ground_truth_relevances.append(ground_truth_relevances)
 
     # Aggregate metrics
-    metrics = aggregate_metrics(all_relevances, all_total_relevant, k_values=[5, 10, 20])
+    metrics = aggregate_metrics(all_relevances, all_total_relevant, k_values=[5, 10, 20], all_ground_truth_relevances=all_ground_truth_relevances)
 
     return metrics
 

@@ -28,7 +28,7 @@ def dcg_at_k(relevances: List[float], k: int) -> float:
     return np.sum(gains)
 
 
-def ndcg_at_k(relevances: List[float], k: int) -> float:
+def ndcg_at_k(relevances: List[float], k: int, ground_truth_relevances: List[float] = None) -> float:
     """
     Calculate Normalized Discounted Cumulative Gain at k.
 
@@ -37,6 +37,9 @@ def ndcg_at_k(relevances: List[float], k: int) -> float:
     Args:
         relevances: List of relevance scores for retrieved documents (in rank order)
         k: Cut-off rank position
+        ground_truth_relevances: Optional list of ALL relevance scores from ground truth (for correct IDCG calculation)
+                                If provided, IDCG will be computed using the best possible ranking of all labeled documents.
+                                If not provided, IDCG will use only the retrieved documents (may be inaccurate).
 
     Returns:
         NDCG@k score (0.0 to 1.0)
@@ -44,7 +47,13 @@ def ndcg_at_k(relevances: List[float], k: int) -> float:
     dcg = dcg_at_k(relevances, k)
 
     # Calculate ideal DCG (best possible ranking)
-    ideal_relevances = sorted(relevances, reverse=True)
+    # Use all ground truth relevances if provided (CORRECT method)
+    # Otherwise fall back to sorting retrieved relevances (legacy behavior)
+    if ground_truth_relevances is not None:
+        ideal_relevances = sorted(ground_truth_relevances, reverse=True)[:k]
+    else:
+        ideal_relevances = sorted(relevances, reverse=True)[:k]
+
     idcg = dcg_at_k(ideal_relevances, k)
 
     if idcg == 0.0:
@@ -194,7 +203,8 @@ def hit_rate_at_k(relevances_list: List[List[float]], k: int) -> float:
 def evaluate_ranking(
     relevances: List[float],
     total_relevant: int,
-    k_values: List[int] = [5, 10, 20]
+    k_values: List[int] = [5, 10, 20],
+    ground_truth_relevances: List[float] = None
 ) -> Dict[str, float]:
     """
     Evaluate ranking with multiple metrics at different k values.
@@ -203,6 +213,7 @@ def evaluate_ranking(
         relevances: List of relevance scores for retrieved documents (in rank order)
         total_relevant: Total number of relevant documents for this query
         k_values: List of k values to evaluate at
+        ground_truth_relevances: Optional list of ALL relevance scores from ground truth (for correct NDCG calculation)
 
     Returns:
         Dictionary of metric name -> score
@@ -210,7 +221,7 @@ def evaluate_ranking(
     results = {}
 
     for k in k_values:
-        results[f'ndcg@{k}'] = ndcg_at_k(relevances, k)
+        results[f'ndcg@{k}'] = ndcg_at_k(relevances, k, ground_truth_relevances)
         results[f'precision@{k}'] = precision_at_k(relevances, k)
         results[f'recall@{k}'] = recall_at_k(relevances, total_relevant, k)
 
@@ -231,7 +242,8 @@ def evaluate_ranking(
 def aggregate_metrics(
     all_relevances: List[List[float]],
     all_total_relevant: List[int],
-    k_values: List[int] = [5, 10, 20]
+    k_values: List[int] = [5, 10, 20],
+    all_ground_truth_relevances: List[List[float]] = None
 ) -> Dict[str, float]:
     """
     Aggregate metrics across multiple queries.
@@ -240,14 +252,16 @@ def aggregate_metrics(
         all_relevances: List of relevance lists (one per query)
         all_total_relevant: List of total relevant counts (one per query)
         k_values: List of k values to evaluate at
+        all_ground_truth_relevances: Optional list of ground truth relevance lists (one per query) for correct NDCG
 
     Returns:
         Dictionary of aggregated metric name -> score
     """
     # Evaluate each query
     per_query_results = []
-    for relevances, total_relevant in zip(all_relevances, all_total_relevant):
-        results = evaluate_ranking(relevances, total_relevant, k_values)
+    for i, (relevances, total_relevant) in enumerate(zip(all_relevances, all_total_relevant)):
+        ground_truth = all_ground_truth_relevances[i] if all_ground_truth_relevances else None
+        results = evaluate_ranking(relevances, total_relevant, k_values, ground_truth)
         per_query_results.append(results)
 
     # Aggregate across queries (mean)

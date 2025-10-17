@@ -149,6 +149,7 @@ def evaluate_system(queries_data, search_function, search_system, system_name, t
 
     all_relevances = []
     all_total_relevant = []
+    all_ground_truth_relevances = []
     per_query_results = []
 
     for query, data in queries_data.items():
@@ -161,17 +162,21 @@ def evaluate_system(queries_data, search_function, search_system, system_name, t
         relevances = [doc_to_relevance.get(doc_id, 0) for doc_id in retrieved_docs]
         total_relevant = sum(1 for rel in data['relevances'] if rel > 0)
 
+        # Store ground truth relevances for correct NDCG calculation
+        ground_truth_relevances = data['relevances']
+
         all_relevances.append(relevances)
         all_total_relevant.append(total_relevant)
+        all_ground_truth_relevances.append(ground_truth_relevances)
 
         # Per-query metrics
-        per_query_metrics = evaluate_ranking(relevances, total_relevant, k_values=[5, 10, 20])
+        per_query_metrics = evaluate_ranking(relevances, total_relevant, k_values=[5, 10, 20], ground_truth_relevances=ground_truth_relevances)
         per_query_metrics['query'] = query
         per_query_metrics['query_type'] = data['query_type']
         per_query_results.append(per_query_metrics)
 
     # Aggregate metrics
-    aggregated = aggregate_metrics(all_relevances, all_total_relevant, k_values=[5, 10, 20])
+    aggregated = aggregate_metrics(all_relevances, all_total_relevant, k_values=[5, 10, 20], all_ground_truth_relevances=all_ground_truth_relevances)
 
     # Analyze by query type
     query_type_results = defaultdict(list)

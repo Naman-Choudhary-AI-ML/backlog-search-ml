@@ -172,15 +172,18 @@ def evaluate_reranking(test_set_path, search_system, cross_encoder_model):
         doc_to_relevance = {doc_id: rel for doc_id, rel in zip(data['document_ids'], data['relevances'])}
         relevances = [doc_to_relevance.get(doc_id, 0) for doc_id in candidates['ID'].tolist()]
         total_relevant = sum(1 for rel in data['relevances'] if rel > 0)
+        ground_truth_relevances = data['relevances']
 
         baseline_results.append({
             'relevances': relevances,
-            'total_relevant': total_relevant
+            'total_relevant': total_relevant,
+            'ground_truth_relevances': ground_truth_relevances
         })
 
     baseline_relevances = [r['relevances'] for r in baseline_results]
     baseline_total_relevant = [r['total_relevant'] for r in baseline_results]
-    baseline_metrics = aggregate_metrics(baseline_relevances, baseline_total_relevant, k_values=[5, 10])
+    baseline_ground_truth = [r['ground_truth_relevances'] for r in baseline_results]
+    baseline_metrics = aggregate_metrics(baseline_relevances, baseline_total_relevant, k_values=[5, 10], all_ground_truth_relevances=baseline_ground_truth)
 
     print(f"   Baseline NDCG@10: {baseline_metrics['ndcg@10']:.4f}")
 
@@ -211,15 +214,18 @@ def evaluate_reranking(test_set_path, search_system, cross_encoder_model):
         doc_to_relevance = {doc_id: rel for doc_id, rel in zip(data['document_ids'], data['relevances'])}
         relevances = [doc_to_relevance.get(doc_id, 0) for doc_id in reranked['ID'].tolist()]
         total_relevant = sum(1 for rel in data['relevances'] if rel > 0)
+        ground_truth_relevances = data['relevances']
 
         reranked_results.append({
             'relevances': relevances,
-            'total_relevant': total_relevant
+            'total_relevant': total_relevant,
+            'ground_truth_relevances': ground_truth_relevances
         })
 
     reranked_relevances = [r['relevances'] for r in reranked_results]
     reranked_total_relevant = [r['total_relevant'] for r in reranked_results]
-    reranked_metrics = aggregate_metrics(reranked_relevances, reranked_total_relevant, k_values=[5, 10])
+    reranked_ground_truth = [r['ground_truth_relevances'] for r in reranked_results]
+    reranked_metrics = aggregate_metrics(reranked_relevances, reranked_total_relevant, k_values=[5, 10], all_ground_truth_relevances=reranked_ground_truth)
 
     print(f"\n   With Reranking NDCG@10: {reranked_metrics['ndcg@10']:.4f}")
 

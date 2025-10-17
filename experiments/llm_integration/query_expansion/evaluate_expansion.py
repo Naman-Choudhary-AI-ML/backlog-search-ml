@@ -143,18 +143,21 @@ def evaluate_with_expansion(api_key, sample_size=30):
         doc_to_relevance = {doc_id: rel for doc_id, rel in zip(data['document_ids'], data['relevances'])}
         relevances = [doc_to_relevance.get(doc_id, 0) for doc_id in retrieved_docs]
         total_relevant = sum(1 for rel in data['relevances'] if rel > 0)
+        ground_truth_relevances = data['relevances']
 
         baseline_results.append({
             'query': query,
             'relevances': relevances,
             'total_relevant': total_relevant,
+            'ground_truth_relevances': ground_truth_relevances,
             'query_type': data['query_type']
         })
 
     # Calculate baseline metrics
     baseline_relevances = [r['relevances'] for r in baseline_results]
     baseline_total_relevant = [r['total_relevant'] for r in baseline_results]
-    baseline_metrics = aggregate_metrics(baseline_relevances, baseline_total_relevant, k_values=[5, 10, 20])
+    baseline_ground_truth = [r['ground_truth_relevances'] for r in baseline_results]
+    baseline_metrics = aggregate_metrics(baseline_relevances, baseline_total_relevant, k_values=[5, 10, 20], all_ground_truth_relevances=baseline_ground_truth)
 
     print(f"   Baseline NDCG@10: {baseline_metrics['ndcg@10']:.4f}")
     print(f"   Baseline Recall@10: {baseline_metrics['recall@10']:.4f}")
@@ -180,12 +183,14 @@ def evaluate_with_expansion(api_key, sample_size=30):
         doc_to_relevance = {doc_id: rel for doc_id, rel in zip(data['document_ids'], data['relevances'])}
         relevances = [doc_to_relevance.get(doc_id, 0) for doc_id in retrieved_docs]
         total_relevant = sum(1 for rel in data['relevances'] if rel > 0)
+        ground_truth_relevances = data['relevances']
 
         expansion_results.append({
             'query': query,
             'expanded_query': expanded_query,
             'relevances': relevances,
             'total_relevant': total_relevant,
+            'ground_truth_relevances': ground_truth_relevances,
             'query_type': data['query_type'],
             'expansion_cost': expansion_result['cost_dollars']
         })
@@ -193,7 +198,8 @@ def evaluate_with_expansion(api_key, sample_size=30):
     # Calculate expansion metrics
     expansion_relevances = [r['relevances'] for r in expansion_results]
     expansion_total_relevant = [r['total_relevant'] for r in expansion_results]
-    expansion_metrics = aggregate_metrics(expansion_relevances, expansion_total_relevant, k_values=[5, 10, 20])
+    expansion_ground_truth = [r['ground_truth_relevances'] for r in expansion_results]
+    expansion_metrics = aggregate_metrics(expansion_relevances, expansion_total_relevant, k_values=[5, 10, 20], all_ground_truth_relevances=expansion_ground_truth)
 
     print(f"\n   With Expansion NDCG@10: {expansion_metrics['ndcg@10']:.4f}")
     print(f"   With Expansion Recall@10: {expansion_metrics['recall@10']:.4f}")
