@@ -1,0 +1,2912 @@
+query,document_id,relevance,query_type
+improve documentation,FEAT-0405,1,task
+improve documentation,FEAT-0406,1,task
+improve documentation,FEAT-0407,1,task
+improve documentation,FEAT-0408,1,task
+improve documentation,FEAT-0409,1,task
+improve documentation,FEAT-0410,1,task
+improve documentation,FEAT-0412,1,task
+improve documentation,FEAT-0413,1,task
+improve documentation,FEAT-0418,1,task
+improve documentation,FEAT-0419,1,task
+improve documentation,FEAT-0425,1,task
+improve documentation,FEAT-0430,1,task
+improve documentation,FEAT-0431,1,task
+improve documentation,FEAT-0432,1,task
+improve documentation,FEAT-0434,1,task
+improve documentation,TASK-0697,0,task
+improve documentation,TASK-0668,0,task
+improve documentation,BUG-0064,0,task
+improve documentation,FEAT-0534,0,task
+improve documentation,BUG-0067,0,task
+integration problems,BUG-0003,1,vague
+integration problems,BUG-0004,1,vague
+integration problems,BUG-0027,1,vague
+integration problems,BUG-0032,1,vague
+integration problems,BUG-0051,1,vague
+integration problems,BUG-0055,1,vague
+integration problems,BUG-0057,1,vague
+integration problems,BUG-0063,1,vague
+integration problems,BUG-0073,1,vague
+integration problems,BUG-0081,1,vague
+integration problems,BUG-0093,1,vague
+integration problems,BUG-0108,1,vague
+integration problems,BUG-0110,1,vague
+integration problems,BUG-0114,1,vague
+integration problems,BUG-0117,1,vague
+integration problems,BUG-0136,0,vague
+integration problems,FEAT-0477,0,vague
+integration problems,BUG-0184,0,vague
+integration problems,FEAT-0565,0,vague
+integration problems,BUG-0374,0,vague
+frontend bugs,BUG-0001,1,vague
+frontend bugs,BUG-0007,1,vague
+frontend bugs,BUG-0010,1,vague
+frontend bugs,BUG-0029,1,vague
+frontend bugs,BUG-0032,1,vague
+frontend bugs,BUG-0040,1,vague
+frontend bugs,BUG-0043,1,vague
+frontend bugs,BUG-0046,1,vague
+frontend bugs,BUG-0048,1,vague
+frontend bugs,BUG-0054,1,vague
+frontend bugs,BUG-0058,1,vague
+frontend bugs,BUG-0070,1,vague
+frontend bugs,BUG-0091,1,vague
+frontend bugs,BUG-0107,1,vague
+frontend bugs,BUG-0113,1,vague
+frontend bugs,BUG-0180,0,vague
+frontend bugs,TASK-0699,0,vague
+frontend bugs,FEAT-0593,0,vague
+frontend bugs,TASK-0690,0,vague
+frontend bugs,FEAT-0514,0,vague
+infinite scroll not loading,BUG-0003,2,specific
+infinite scroll not loading,BUG-0025,2,specific
+infinite scroll not loading,BUG-0035,2,specific
+infinite scroll not loading,BUG-0066,2,specific
+infinite scroll not loading,BUG-0088,2,specific
+infinite scroll not loading,BUG-0089,2,specific
+infinite scroll not loading,BUG-0110,2,specific
+infinite scroll not loading,BUG-0124,2,specific
+infinite scroll not loading,BUG-0133,2,specific
+infinite scroll not loading,BUG-0137,2,specific
+infinite scroll not loading,BUG-0152,2,specific
+infinite scroll not loading,BUG-0182,2,specific
+infinite scroll not loading,BUG-0184,2,specific
+infinite scroll not loading,BUG-0215,2,specific
+infinite scroll not loading,BUG-0249,2,specific
+infinite scroll not loading,BUG-0299,0,specific
+infinite scroll not loading,BUG-0103,0,specific
+infinite scroll not loading,TASK-0697,0,specific
+infinite scroll not loading,FEAT-0427,0,specific
+infinite scroll not loading,TASK-0672,0,specific
+database connection pool exhausted,BUG-0011,2,specific
+database connection pool exhausted,BUG-0014,2,specific
+database connection pool exhausted,BUG-0034,2,specific
+database connection pool exhausted,BUG-0059,2,specific
+database connection pool exhausted,BUG-0090,2,specific
+database connection pool exhausted,BUG-0139,2,specific
+database connection pool exhausted,BUG-0141,2,specific
+database connection pool exhausted,BUG-0174,2,specific
+database connection pool exhausted,BUG-0206,2,specific
+database connection pool exhausted,BUG-0227,2,specific
+database connection pool exhausted,BUG-0250,2,specific
+database connection pool exhausted,BUG-0269,2,specific
+database connection pool exhausted,BUG-0290,2,specific
+database connection pool exhausted,BUG-0300,2,specific
+database connection pool exhausted,BUG-0305,2,specific
+database connection pool exhausted,FEAT-0442,0,specific
+database connection pool exhausted,BUG-0261,0,specific
+database connection pool exhausted,BUG-0207,0,specific
+database connection pool exhausted,FEAT-0496,0,specific
+database connection pool exhausted,BUG-0110,0,specific
+form validation missing,BUG-0031,2,specific
+form validation missing,BUG-0037,2,specific
+form validation missing,BUG-0045,2,specific
+form validation missing,BUG-0053,2,specific
+form validation missing,BUG-0080,2,specific
+form validation missing,BUG-0115,2,specific
+form validation missing,BUG-0216,2,specific
+form validation missing,BUG-0220,2,specific
+form validation missing,BUG-0225,2,specific
+form validation missing,BUG-0279,2,specific
+form validation missing,BUG-0285,2,specific
+form validation missing,BUG-0313,2,specific
+form validation missing,BUG-0324,2,specific
+form validation missing,BUG-0338,2,specific
+form validation missing,BUG-0340,2,specific
+form validation missing,BUG-0034,0,specific
+form validation missing,FEAT-0498,0,specific
+form validation missing,FEAT-0645,0,specific
+form validation missing,FEAT-0612,0,specific
+form validation missing,BUG-0293,0,specific
+authentication,BUG-0019,2,vague
+authentication,BUG-0033,2,vague
+authentication,BUG-0043,2,vague
+authentication,BUG-0066,2,vague
+authentication,BUG-0071,2,vague
+authentication,BUG-0072,2,vague
+authentication,BUG-0074,2,vague
+authentication,BUG-0076,2,vague
+authentication,BUG-0077,2,vague
+authentication,BUG-0090,2,vague
+authentication,BUG-0095,2,vague
+authentication,BUG-0097,2,vague
+authentication,BUG-0103,2,vague
+authentication,BUG-0116,2,vague
+authentication,BUG-0120,2,vague
+authentication,BUG-0161,0,vague
+authentication,TASK-0665,0,vague
+authentication,BUG-0092,0,vague
+authentication,BUG-0395,0,vague
+authentication,FEAT-0427,0,vague
+user management,BUG-0048,2,vague
+user management,BUG-0076,2,vague
+user management,BUG-0128,2,vague
+user management,BUG-0345,2,vague
+user management,FEAT-0402,2,vague
+user management,FEAT-0409,2,vague
+user management,FEAT-0452,2,vague
+user management,FEAT-0455,2,vague
+user management,FEAT-0473,2,vague
+user management,FEAT-0484,2,vague
+user management,FEAT-0499,2,vague
+user management,FEAT-0543,2,vague
+user management,FEAT-0548,2,vague
+user management,FEAT-0572,2,vague
+user management,FEAT-0576,2,vague
+user management,FEAT-0624,0,vague
+user management,FEAT-0603,0,vague
+user management,BUG-0270,0,vague
+user management,TASK-0776,0,vague
+user management,BUG-0198,0,vague
+audit logging,FEAT-0463,2,feature
+audit logging,FEAT-0501,2,feature
+audit logging,FEAT-0545,2,feature
+audit logging,FEAT-0547,2,feature
+audit logging,FEAT-0610,2,feature
+audit logging,FEAT-0650,2,feature
+audit logging,BUG-0040,1,feature
+audit logging,BUG-0140,1,feature
+audit logging,BUG-0160,1,feature
+audit logging,BUG-0283,1,feature
+audit logging,BUG-0288,1,feature
+audit logging,BUG-0346,1,feature
+audit logging,BUG-0400,1,feature
+audit logging,FEAT-0429,1,feature
+audit logging,FEAT-0457,1,feature
+audit logging,BUG-0297,0,feature
+audit logging,BUG-0006,0,feature
+audit logging,BUG-0324,0,feature
+audit logging,BUG-0300,0,feature
+audit logging,BUG-0204,0,feature
+export functionality,FEAT-0419,2,vague
+export functionality,FEAT-0456,2,vague
+export functionality,FEAT-0479,2,vague
+export functionality,FEAT-0570,2,vague
+export functionality,FEAT-0600,2,vague
+export functionality,FEAT-0601,2,vague
+export functionality,FEAT-0641,2,vague
+export functionality,BUG-0097,1,vague
+export functionality,BUG-0123,1,vague
+export functionality,BUG-0167,1,vague
+export functionality,BUG-0171,1,vague
+export functionality,BUG-0221,1,vague
+export functionality,BUG-0251,1,vague
+export functionality,BUG-0296,1,vague
+export functionality,FEAT-0402,1,vague
+export functionality,BUG-0337,0,vague
+export functionality,TASK-0698,0,vague
+export functionality,TASK-0744,0,vague
+export functionality,FEAT-0592,0,vague
+export functionality,FEAT-0640,0,vague
+refactor code,TASK-0654,1,task
+refactor code,TASK-0656,1,task
+refactor code,TASK-0657,1,task
+refactor code,TASK-0661,1,task
+refactor code,TASK-0667,1,task
+refactor code,TASK-0671,1,task
+refactor code,TASK-0672,1,task
+refactor code,TASK-0674,1,task
+refactor code,TASK-0677,1,task
+refactor code,TASK-0684,1,task
+refactor code,TASK-0685,1,task
+refactor code,TASK-0689,1,task
+refactor code,TASK-0690,1,task
+refactor code,TASK-0691,1,task
+refactor code,TASK-0697,1,task
+refactor code,BUG-0265,0,task
+refactor code,TASK-0699,0,task
+refactor code,BUG-0045,0,task
+refactor code,BUG-0193,0,task
+refactor code,BUG-0004,0,task
+timeout after 30 seconds,BUG-0186,2,technical
+timeout after 30 seconds,BUG-0358,2,technical
+timeout after 30 seconds,BUG-0374,2,technical
+timeout after 30 seconds,BUG-0002,1,technical
+timeout after 30 seconds,BUG-0003,1,technical
+timeout after 30 seconds,BUG-0004,1,technical
+timeout after 30 seconds,BUG-0007,1,technical
+timeout after 30 seconds,BUG-0008,1,technical
+timeout after 30 seconds,BUG-0015,1,technical
+timeout after 30 seconds,BUG-0020,1,technical
+timeout after 30 seconds,BUG-0025,1,technical
+timeout after 30 seconds,BUG-0027,1,technical
+timeout after 30 seconds,BUG-0033,1,technical
+timeout after 30 seconds,BUG-0035,1,technical
+timeout after 30 seconds,BUG-0036,1,technical
+timeout after 30 seconds,BUG-0351,0,technical
+timeout after 30 seconds,FEAT-0577,0,technical
+timeout after 30 seconds,BUG-0087,0,technical
+timeout after 30 seconds,BUG-0050,0,technical
+timeout after 30 seconds,FEAT-0524,0,technical
+notification system,BUG-0026,1,vague
+notification system,BUG-0034,1,vague
+notification system,BUG-0038,1,vague
+notification system,BUG-0057,1,vague
+notification system,BUG-0058,1,vague
+notification system,BUG-0101,1,vague
+notification system,BUG-0124,1,vague
+notification system,BUG-0150,1,vague
+notification system,BUG-0152,1,vague
+notification system,BUG-0169,1,vague
+notification system,BUG-0201,1,vague
+notification system,BUG-0203,1,vague
+notification system,BUG-0211,1,vague
+notification system,BUG-0212,1,vague
+notification system,BUG-0215,1,vague
+notification system,BUG-0344,0,vague
+notification system,FEAT-0642,0,vague
+notification system,FEAT-0610,0,vague
+notification system,BUG-0066,0,vague
+notification system,BUG-0264,0,vague
+export functionality,FEAT-0419,2,vague
+export functionality,FEAT-0456,2,vague
+export functionality,FEAT-0479,2,vague
+export functionality,FEAT-0570,2,vague
+export functionality,FEAT-0600,2,vague
+export functionality,FEAT-0601,2,vague
+export functionality,FEAT-0641,2,vague
+export functionality,BUG-0097,1,vague
+export functionality,BUG-0123,1,vague
+export functionality,BUG-0167,1,vague
+export functionality,BUG-0171,1,vague
+export functionality,BUG-0221,1,vague
+export functionality,BUG-0251,1,vague
+export functionality,BUG-0296,1,vague
+export functionality,FEAT-0402,1,vague
+export functionality,TASK-0701,0,vague
+export functionality,TASK-0691,0,vague
+export functionality,BUG-0321,0,vague
+export functionality,BUG-0312,0,vague
+export functionality,BUG-0340,0,vague
+notification system,BUG-0026,1,vague
+notification system,BUG-0034,1,vague
+notification system,BUG-0038,1,vague
+notification system,BUG-0057,1,vague
+notification system,BUG-0058,1,vague
+notification system,BUG-0101,1,vague
+notification system,BUG-0124,1,vague
+notification system,BUG-0150,1,vague
+notification system,BUG-0152,1,vague
+notification system,BUG-0169,1,vague
+notification system,BUG-0201,1,vague
+notification system,BUG-0203,1,vague
+notification system,BUG-0211,1,vague
+notification system,BUG-0212,1,vague
+notification system,BUG-0215,1,vague
+notification system,FEAT-0536,0,vague
+notification system,TASK-0651,0,vague
+notification system,FEAT-0457,0,vague
+notification system,BUG-0114,0,vague
+notification system,BUG-0110,0,vague
+infinite scroll not loading,BUG-0003,2,specific
+infinite scroll not loading,BUG-0025,2,specific
+infinite scroll not loading,BUG-0035,2,specific
+infinite scroll not loading,BUG-0066,2,specific
+infinite scroll not loading,BUG-0088,2,specific
+infinite scroll not loading,BUG-0089,2,specific
+infinite scroll not loading,BUG-0110,2,specific
+infinite scroll not loading,BUG-0124,2,specific
+infinite scroll not loading,BUG-0133,2,specific
+infinite scroll not loading,BUG-0137,2,specific
+infinite scroll not loading,BUG-0152,2,specific
+infinite scroll not loading,BUG-0182,2,specific
+infinite scroll not loading,BUG-0184,2,specific
+infinite scroll not loading,BUG-0215,2,specific
+infinite scroll not loading,BUG-0249,2,specific
+infinite scroll not loading,BUG-0394,0,specific
+infinite scroll not loading,BUG-0129,0,specific
+infinite scroll not loading,BUG-0305,0,specific
+infinite scroll not loading,BUG-0144,0,specific
+infinite scroll not loading,FEAT-0444,0,specific
+data inconsistency in users table,BUG-0009,2,specific
+data inconsistency in users table,BUG-0010,2,specific
+data inconsistency in users table,BUG-0039,2,specific
+data inconsistency in users table,BUG-0040,2,specific
+data inconsistency in users table,BUG-0063,2,specific
+data inconsistency in users table,BUG-0070,2,specific
+data inconsistency in users table,BUG-0140,2,specific
+data inconsistency in users table,BUG-0143,2,specific
+data inconsistency in users table,BUG-0148,2,specific
+data inconsistency in users table,BUG-0165,2,specific
+data inconsistency in users table,BUG-0175,2,specific
+data inconsistency in users table,BUG-0180,2,specific
+data inconsistency in users table,BUG-0197,2,specific
+data inconsistency in users table,BUG-0218,2,specific
+data inconsistency in users table,BUG-0226,2,specific
+data inconsistency in users table,BUG-0260,0,specific
+data inconsistency in users table,FEAT-0610,0,specific
+data inconsistency in users table,BUG-0161,0,specific
+data inconsistency in users table,BUG-0125,0,specific
+data inconsistency in users table,BUG-0158,0,specific
+support PDF export,FEAT-0402,2,feature
+support PDF export,FEAT-0414,2,feature
+support PDF export,FEAT-0420,2,feature
+support PDF export,FEAT-0421,2,feature
+support PDF export,FEAT-0424,2,feature
+support PDF export,FEAT-0427,2,feature
+support PDF export,FEAT-0428,2,feature
+support PDF export,FEAT-0440,2,feature
+support PDF export,FEAT-0449,2,feature
+support PDF export,FEAT-0450,2,feature
+support PDF export,FEAT-0452,2,feature
+support PDF export,FEAT-0465,2,feature
+support PDF export,FEAT-0490,2,feature
+support PDF export,FEAT-0512,2,feature
+support PDF export,FEAT-0513,2,feature
+support PDF export,FEAT-0487,0,feature
+support PDF export,BUG-0017,0,feature
+support PDF export,BUG-0031,0,feature
+support PDF export,BUG-0060,0,feature
+support PDF export,BUG-0187,0,feature
+performance profiling,BUG-0002,1,task
+performance profiling,BUG-0004,1,task
+performance profiling,BUG-0007,1,task
+performance profiling,BUG-0009,1,task
+performance profiling,BUG-0011,1,task
+performance profiling,BUG-0013,1,task
+performance profiling,BUG-0014,1,task
+performance profiling,BUG-0015,1,task
+performance profiling,BUG-0016,1,task
+performance profiling,BUG-0018,1,task
+performance profiling,BUG-0024,1,task
+performance profiling,BUG-0027,1,task
+performance profiling,BUG-0035,1,task
+performance profiling,BUG-0036,1,task
+performance profiling,BUG-0038,1,task
+performance profiling,FEAT-0634,0,task
+performance profiling,BUG-0266,0,task
+performance profiling,FEAT-0578,0,task
+performance profiling,FEAT-0620,0,task
+performance profiling,BUG-0250,0,task
+integrate with Slack,FEAT-0404,2,feature
+integrate with Slack,FEAT-0411,2,feature
+integrate with Slack,FEAT-0416,2,feature
+integrate with Slack,FEAT-0422,2,feature
+integrate with Slack,FEAT-0453,2,feature
+integrate with Slack,FEAT-0485,2,feature
+integrate with Slack,FEAT-0491,2,feature
+integrate with Slack,FEAT-0500,2,feature
+integrate with Slack,FEAT-0526,2,feature
+integrate with Slack,FEAT-0530,2,feature
+integrate with Slack,FEAT-0537,2,feature
+integrate with Slack,FEAT-0556,2,feature
+integrate with Slack,FEAT-0563,2,feature
+integrate with Slack,FEAT-0568,2,feature
+integrate with Slack,FEAT-0569,2,feature
+integrate with Slack,FEAT-0458,0,feature
+integrate with Slack,FEAT-0515,0,feature
+integrate with Slack,FEAT-0460,0,feature
+integrate with Slack,BUG-0100,0,feature
+integrate with Slack,BUG-0165,0,feature
+memory leak in backend,BUG-0074,2,specific
+memory leak in backend,BUG-0095,2,specific
+memory leak in backend,BUG-0150,2,specific
+memory leak in backend,BUG-0185,2,specific
+memory leak in backend,BUG-0191,2,specific
+memory leak in backend,BUG-0201,2,specific
+memory leak in backend,BUG-0205,2,specific
+memory leak in backend,BUG-0212,2,specific
+memory leak in backend,BUG-0262,2,specific
+memory leak in backend,BUG-0274,2,specific
+memory leak in backend,BUG-0301,2,specific
+memory leak in backend,BUG-0310,2,specific
+memory leak in backend,BUG-0347,2,specific
+memory leak in backend,BUG-0371,2,specific
+memory leak in backend,BUG-0375,2,specific
+memory leak in backend,BUG-0211,0,specific
+memory leak in backend,BUG-0353,0,specific
+memory leak in backend,FEAT-0573,0,specific
+memory leak in backend,BUG-0214,0,specific
+memory leak in backend,BUG-0374,0,specific
+refactor code,TASK-0654,1,task
+refactor code,TASK-0656,1,task
+refactor code,TASK-0657,1,task
+refactor code,TASK-0661,1,task
+refactor code,TASK-0667,1,task
+refactor code,TASK-0671,1,task
+refactor code,TASK-0672,1,task
+refactor code,TASK-0674,1,task
+refactor code,TASK-0677,1,task
+refactor code,TASK-0684,1,task
+refactor code,TASK-0685,1,task
+refactor code,TASK-0689,1,task
+refactor code,TASK-0690,1,task
+refactor code,TASK-0691,1,task
+refactor code,TASK-0697,1,task
+refactor code,BUG-0040,0,task
+refactor code,TASK-0713,0,task
+refactor code,TASK-0727,0,task
+refactor code,BUG-0291,0,task
+refactor code,TASK-0714,0,task
+500 internal server error on /api/users,BUG-0006,2,technical
+500 internal server error on /api/users,BUG-0007,2,technical
+500 internal server error on /api/users,BUG-0013,2,technical
+500 internal server error on /api/users,BUG-0015,2,technical
+500 internal server error on /api/users,BUG-0027,2,technical
+500 internal server error on /api/users,BUG-0036,2,technical
+500 internal server error on /api/users,BUG-0055,2,technical
+500 internal server error on /api/users,BUG-0068,2,technical
+500 internal server error on /api/users,BUG-0072,2,technical
+500 internal server error on /api/users,BUG-0082,2,technical
+500 internal server error on /api/users,BUG-0109,2,technical
+500 internal server error on /api/users,BUG-0118,2,technical
+500 internal server error on /api/users,BUG-0122,2,technical
+500 internal server error on /api/users,BUG-0138,2,technical
+500 internal server error on /api/users,BUG-0166,2,technical
+500 internal server error on /api/users,TASK-0746,0,technical
+500 internal server error on /api/users,BUG-0264,0,technical
+500 internal server error on /api/users,BUG-0182,0,technical
+500 internal server error on /api/users,FEAT-0622,0,technical
+500 internal server error on /api/users,BUG-0016,0,technical
+transaction deadlock,BUG-0061,2,specific
+transaction deadlock,BUG-0097,2,specific
+transaction deadlock,BUG-0120,2,specific
+transaction deadlock,BUG-0123,2,specific
+transaction deadlock,BUG-0167,2,specific
+transaction deadlock,BUG-0171,2,specific
+transaction deadlock,BUG-0221,2,specific
+transaction deadlock,BUG-0248,2,specific
+transaction deadlock,BUG-0251,2,specific
+transaction deadlock,BUG-0287,2,specific
+transaction deadlock,BUG-0296,2,specific
+transaction deadlock,BUG-0373,2,specific
+transaction deadlock,BUG-0387,2,specific
+transaction deadlock,BUG-0391,2,specific
+transaction deadlock,BUG-0392,2,specific
+transaction deadlock,FEAT-0580,0,specific
+transaction deadlock,FEAT-0639,0,specific
+transaction deadlock,TASK-0697,0,specific
+transaction deadlock,BUG-0304,0,specific
+transaction deadlock,BUG-0022,0,specific
+ORM query optimization needed,BUG-0002,1,technical
+ORM query optimization needed,BUG-0007,1,technical
+ORM query optimization needed,BUG-0009,1,technical
+ORM query optimization needed,BUG-0011,1,technical
+ORM query optimization needed,BUG-0015,1,technical
+ORM query optimization needed,BUG-0016,1,technical
+ORM query optimization needed,BUG-0018,1,technical
+ORM query optimization needed,BUG-0027,1,technical
+ORM query optimization needed,BUG-0035,1,technical
+ORM query optimization needed,BUG-0036,1,technical
+ORM query optimization needed,BUG-0042,1,technical
+ORM query optimization needed,BUG-0044,1,technical
+ORM query optimization needed,BUG-0055,1,technical
+ORM query optimization needed,BUG-0066,1,technical
+ORM query optimization needed,BUG-0068,1,technical
+ORM query optimization needed,BUG-0221,0,technical
+ORM query optimization needed,FEAT-0408,0,technical
+ORM query optimization needed,BUG-0104,0,technical
+ORM query optimization needed,BUG-0146,0,technical
+ORM query optimization needed,BUG-0194,0,technical
+transaction deadlock,BUG-0061,2,specific
+transaction deadlock,BUG-0097,2,specific
+transaction deadlock,BUG-0120,2,specific
+transaction deadlock,BUG-0123,2,specific
+transaction deadlock,BUG-0167,2,specific
+transaction deadlock,BUG-0171,2,specific
+transaction deadlock,BUG-0221,2,specific
+transaction deadlock,BUG-0248,2,specific
+transaction deadlock,BUG-0251,2,specific
+transaction deadlock,BUG-0287,2,specific
+transaction deadlock,BUG-0296,2,specific
+transaction deadlock,BUG-0373,2,specific
+transaction deadlock,BUG-0387,2,specific
+transaction deadlock,BUG-0391,2,specific
+transaction deadlock,BUG-0392,2,specific
+transaction deadlock,FEAT-0413,0,specific
+transaction deadlock,FEAT-0642,0,specific
+transaction deadlock,TASK-0705,0,specific
+transaction deadlock,TASK-0652,0,specific
+transaction deadlock,FEAT-0446,0,specific
+database issues,BUG-0004,1,vague
+database issues,BUG-0007,1,vague
+database issues,BUG-0011,1,vague
+database issues,BUG-0014,1,vague
+database issues,BUG-0015,1,vague
+database issues,BUG-0024,1,vague
+database issues,BUG-0027,1,vague
+database issues,BUG-0034,1,vague
+database issues,BUG-0035,1,vague
+database issues,BUG-0036,1,vague
+database issues,BUG-0038,1,vague
+database issues,BUG-0054,1,vague
+database issues,BUG-0055,1,vague
+database issues,BUG-0059,1,vague
+database issues,BUG-0061,1,vague
+database issues,BUG-0211,0,vague
+database issues,BUG-0392,0,vague
+database issues,FEAT-0555,0,vague
+database issues,TASK-0776,0,vague
+database issues,TASK-0727,0,vague
+page load slow,BUG-0004,1,vague
+page load slow,BUG-0043,1,vague
+page load slow,BUG-0060,1,vague
+page load slow,BUG-0079,1,vague
+page load slow,BUG-0086,1,vague
+page load slow,BUG-0098,1,vague
+page load slow,BUG-0102,1,vague
+page load slow,BUG-0104,1,vague
+page load slow,BUG-0129,1,vague
+page load slow,BUG-0131,1,vague
+page load slow,BUG-0186,1,vague
+page load slow,BUG-0259,1,vague
+page load slow,BUG-0289,1,vague
+page load slow,BUG-0318,1,vague
+page load slow,BUG-0328,1,vague
+page load slow,TASK-0761,0,vague
+page load slow,BUG-0281,0,vague
+page load slow,FEAT-0510,0,vague
+page load slow,FEAT-0506,0,vague
+page load slow,BUG-0118,0,vague
+security audit,BUG-0002,1,task
+security audit,BUG-0017,1,task
+security audit,BUG-0020,1,task
+security audit,BUG-0021,1,task
+security audit,BUG-0022,1,task
+security audit,BUG-0023,1,task
+security audit,BUG-0025,1,task
+security audit,BUG-0033,1,task
+security audit,BUG-0038,1,task
+security audit,BUG-0040,1,task
+security audit,BUG-0041,1,task
+security audit,BUG-0043,1,task
+security audit,BUG-0047,1,task
+security audit,BUG-0059,1,task
+security audit,BUG-0060,1,task
+security audit,BUG-0147,0,task
+security audit,BUG-0119,0,task
+security audit,BUG-0158,0,task
+security audit,BUG-0050,0,task
+security audit,FEAT-0478,0,task
+form validation missing,BUG-0031,2,specific
+form validation missing,BUG-0037,2,specific
+form validation missing,BUG-0045,2,specific
+form validation missing,BUG-0053,2,specific
+form validation missing,BUG-0080,2,specific
+form validation missing,BUG-0115,2,specific
+form validation missing,BUG-0216,2,specific
+form validation missing,BUG-0220,2,specific
+form validation missing,BUG-0225,2,specific
+form validation missing,BUG-0279,2,specific
+form validation missing,BUG-0285,2,specific
+form validation missing,BUG-0313,2,specific
+form validation missing,BUG-0324,2,specific
+form validation missing,BUG-0338,2,specific
+form validation missing,BUG-0340,2,specific
+form validation missing,BUG-0029,0,specific
+form validation missing,TASK-0730,0,specific
+form validation missing,FEAT-0465,0,specific
+form validation missing,BUG-0253,0,specific
+form validation missing,BUG-0226,0,specific
+support PDF export,FEAT-0402,2,feature
+support PDF export,FEAT-0414,2,feature
+support PDF export,FEAT-0420,2,feature
+support PDF export,FEAT-0421,2,feature
+support PDF export,FEAT-0424,2,feature
+support PDF export,FEAT-0427,2,feature
+support PDF export,FEAT-0428,2,feature
+support PDF export,FEAT-0440,2,feature
+support PDF export,FEAT-0449,2,feature
+support PDF export,FEAT-0450,2,feature
+support PDF export,FEAT-0452,2,feature
+support PDF export,FEAT-0465,2,feature
+support PDF export,FEAT-0490,2,feature
+support PDF export,FEAT-0512,2,feature
+support PDF export,FEAT-0513,2,feature
+support PDF export,BUG-0342,0,feature
+support PDF export,BUG-0034,0,feature
+support PDF export,FEAT-0507,0,feature
+support PDF export,BUG-0174,0,feature
+search not working,BUG-0020,2,vague
+search not working,BUG-0033,2,vague
+search not working,BUG-0038,2,vague
+search not working,BUG-0041,2,vague
+search not working,BUG-0067,2,vague
+search not working,BUG-0101,2,vague
+search not working,BUG-0119,2,vague
+search not working,BUG-0125,2,vague
+search not working,BUG-0145,2,vague
+search not working,BUG-0155,2,vague
+search not working,BUG-0203,2,vague
+search not working,BUG-0210,2,vague
+search not working,BUG-0211,2,vague
+search not working,BUG-0224,2,vague
+search not working,BUG-0244,2,vague
+search not working,BUG-0338,0,vague
+search not working,BUG-0058,0,vague
+search not working,FEAT-0403,0,vague
+search not working,BUG-0209,0,vague
+search not working,BUG-0382,0,vague
+optimize database queries,TASK-0652,2,task
+optimize database queries,TASK-0653,2,task
+optimize database queries,TASK-0670,2,task
+optimize database queries,TASK-0678,2,task
+optimize database queries,TASK-0682,2,task
+optimize database queries,TASK-0686,2,task
+optimize database queries,TASK-0687,2,task
+optimize database queries,TASK-0695,2,task
+optimize database queries,TASK-0703,2,task
+optimize database queries,TASK-0704,2,task
+optimize database queries,TASK-0710,2,task
+optimize database queries,TASK-0715,2,task
+optimize database queries,TASK-0720,2,task
+optimize database queries,TASK-0726,2,task
+optimize database queries,TASK-0734,2,task
+optimize database queries,BUG-0122,0,task
+optimize database queries,TASK-0694,0,task
+optimize database queries,BUG-0121,0,task
+optimize database queries,BUG-0353,0,task
+optimize database queries,FEAT-0420,0,task
+transaction deadlock,BUG-0061,2,specific
+transaction deadlock,BUG-0097,2,specific
+transaction deadlock,BUG-0120,2,specific
+transaction deadlock,BUG-0123,2,specific
+transaction deadlock,BUG-0167,2,specific
+transaction deadlock,BUG-0171,2,specific
+transaction deadlock,BUG-0221,2,specific
+transaction deadlock,BUG-0248,2,specific
+transaction deadlock,BUG-0251,2,specific
+transaction deadlock,BUG-0287,2,specific
+transaction deadlock,BUG-0296,2,specific
+transaction deadlock,BUG-0373,2,specific
+transaction deadlock,BUG-0387,2,specific
+transaction deadlock,BUG-0391,2,specific
+transaction deadlock,BUG-0392,2,specific
+transaction deadlock,BUG-0393,0,specific
+transaction deadlock,TASK-0748,0,specific
+transaction deadlock,BUG-0245,0,specific
+transaction deadlock,FEAT-0570,0,specific
+transaction deadlock,TASK-0755,0,specific
+add unit tests,TASK-0655,2,task
+add unit tests,TASK-0662,2,task
+add unit tests,TASK-0675,2,task
+add unit tests,TASK-0680,2,task
+add unit tests,TASK-0681,2,task
+add unit tests,TASK-0688,2,task
+add unit tests,TASK-0693,2,task
+add unit tests,TASK-0705,2,task
+add unit tests,TASK-0712,2,task
+add unit tests,TASK-0714,2,task
+add unit tests,TASK-0719,2,task
+add unit tests,TASK-0733,2,task
+add unit tests,TASK-0737,2,task
+add unit tests,TASK-0740,2,task
+add unit tests,TASK-0741,2,task
+add unit tests,TASK-0756,0,task
+add unit tests,TASK-0784,0,task
+add unit tests,TASK-0722,0,task
+add unit tests,FEAT-0613,0,task
+add unit tests,FEAT-0531,0,task
+setup monitoring,TASK-0659,2,task
+setup monitoring,TASK-0663,2,task
+setup monitoring,TASK-0668,2,task
+setup monitoring,TASK-0679,2,task
+setup monitoring,TASK-0683,2,task
+setup monitoring,TASK-0692,2,task
+setup monitoring,TASK-0696,2,task
+setup monitoring,TASK-0711,2,task
+setup monitoring,TASK-0713,2,task
+setup monitoring,TASK-0717,2,task
+setup monitoring,TASK-0722,2,task
+setup monitoring,TASK-0728,2,task
+setup monitoring,TASK-0732,2,task
+setup monitoring,TASK-0739,2,task
+setup monitoring,TASK-0742,2,task
+setup monitoring,BUG-0217,0,task
+setup monitoring,FEAT-0554,0,task
+setup monitoring,FEAT-0526,0,task
+setup monitoring,FEAT-0560,0,task
+unicode character encoding issue,BUG-0017,2,technical
+unicode character encoding issue,BUG-0130,2,technical
+unicode character encoding issue,BUG-0278,2,technical
+unicode character encoding issue,BUG-0007,1,technical
+unicode character encoding issue,BUG-0008,1,technical
+unicode character encoding issue,BUG-0009,1,technical
+unicode character encoding issue,BUG-0010,1,technical
+unicode character encoding issue,BUG-0015,1,technical
+unicode character encoding issue,BUG-0019,1,technical
+unicode character encoding issue,BUG-0027,1,technical
+unicode character encoding issue,BUG-0032,1,technical
+unicode character encoding issue,BUG-0036,1,technical
+unicode character encoding issue,BUG-0039,1,technical
+unicode character encoding issue,BUG-0040,1,technical
+unicode character encoding issue,BUG-0050,1,technical
+unicode character encoding issue,TASK-0682,0,technical
+unicode character encoding issue,BUG-0370,0,technical
+unicode character encoding issue,FEAT-0442,0,technical
+unicode character encoding issue,TASK-0798,0,technical
+unicode character encoding issue,TASK-0686,0,technical
+search not working,BUG-0020,2,vague
+search not working,BUG-0033,2,vague
+search not working,BUG-0038,2,vague
+search not working,BUG-0041,2,vague
+search not working,BUG-0067,2,vague
+search not working,BUG-0101,2,vague
+search not working,BUG-0119,2,vague
+search not working,BUG-0125,2,vague
+search not working,BUG-0145,2,vague
+search not working,BUG-0155,2,vague
+search not working,BUG-0203,2,vague
+search not working,BUG-0210,2,vague
+search not working,BUG-0211,2,vague
+search not working,BUG-0224,2,vague
+search not working,BUG-0244,2,vague
+search not working,BUG-0372,0,vague
+search not working,BUG-0195,0,vague
+search not working,TASK-0696,0,vague
+search not working,BUG-0115,0,vague
+search not working,BUG-0221,0,vague
+401 unauthorized error,BUG-0005,2,technical
+401 unauthorized error,BUG-0022,2,technical
+401 unauthorized error,BUG-0058,2,technical
+401 unauthorized error,BUG-0135,2,technical
+401 unauthorized error,BUG-0172,2,technical
+401 unauthorized error,BUG-0183,2,technical
+401 unauthorized error,BUG-0196,2,technical
+401 unauthorized error,BUG-0200,2,technical
+401 unauthorized error,BUG-0223,2,technical
+401 unauthorized error,BUG-0234,2,technical
+401 unauthorized error,BUG-0240,2,technical
+401 unauthorized error,BUG-0253,2,technical
+401 unauthorized error,BUG-0260,2,technical
+401 unauthorized error,BUG-0261,2,technical
+401 unauthorized error,BUG-0268,2,technical
+401 unauthorized error,BUG-0392,0,technical
+401 unauthorized error,BUG-0095,0,technical
+401 unauthorized error,FEAT-0401,0,technical
+401 unauthorized error,TASK-0729,0,technical
+401 unauthorized error,BUG-0395,0,technical
+high CPU usage,BUG-0024,2,specific
+high CPU usage,BUG-0052,2,specific
+high CPU usage,BUG-0057,2,specific
+high CPU usage,BUG-0062,2,specific
+high CPU usage,BUG-0081,2,specific
+high CPU usage,BUG-0116,2,specific
+high CPU usage,BUG-0163,2,specific
+high CPU usage,BUG-0164,2,specific
+high CPU usage,BUG-0177,2,specific
+high CPU usage,BUG-0229,2,specific
+high CPU usage,BUG-0231,2,specific
+high CPU usage,BUG-0233,2,specific
+high CPU usage,BUG-0281,2,specific
+high CPU usage,BUG-0323,2,specific
+high CPU usage,BUG-0385,2,specific
+high CPU usage,FEAT-0541,0,specific
+high CPU usage,BUG-0004,0,specific
+high CPU usage,BUG-0073,0,specific
+high CPU usage,FEAT-0539,0,specific
+high CPU usage,FEAT-0459,0,specific
+password reset email not sent,BUG-0005,2,specific
+password reset email not sent,BUG-0016,2,specific
+password reset email not sent,BUG-0029,2,specific
+password reset email not sent,BUG-0069,2,specific
+password reset email not sent,BUG-0078,2,specific
+password reset email not sent,BUG-0103,2,specific
+password reset email not sent,BUG-0113,2,specific
+password reset email not sent,BUG-0144,2,specific
+password reset email not sent,BUG-0153,2,specific
+password reset email not sent,BUG-0154,2,specific
+password reset email not sent,BUG-0158,2,specific
+password reset email not sent,BUG-0170,2,specific
+password reset email not sent,BUG-0172,2,specific
+password reset email not sent,BUG-0188,2,specific
+password reset email not sent,BUG-0193,2,specific
+password reset email not sent,TASK-0714,0,specific
+password reset email not sent,BUG-0098,0,specific
+password reset email not sent,BUG-0219,0,specific
+password reset email not sent,BUG-0293,0,specific
+password reset email not sent,TASK-0798,0,specific
+user management,BUG-0048,2,vague
+user management,BUG-0076,2,vague
+user management,BUG-0128,2,vague
+user management,BUG-0345,2,vague
+user management,FEAT-0402,2,vague
+user management,FEAT-0409,2,vague
+user management,FEAT-0452,2,vague
+user management,FEAT-0455,2,vague
+user management,FEAT-0473,2,vague
+user management,FEAT-0484,2,vague
+user management,FEAT-0499,2,vague
+user management,FEAT-0543,2,vague
+user management,FEAT-0548,2,vague
+user management,FEAT-0572,2,vague
+user management,FEAT-0576,2,vague
+user management,BUG-0061,0,vague
+user management,FEAT-0530,0,vague
+user management,TASK-0775,0,vague
+user management,FEAT-0621,0,vague
+user management,BUG-0277,0,vague
+XSS in user input,BUG-0048,2,technical
+XSS in user input,BUG-0076,2,technical
+XSS in user input,BUG-0128,2,technical
+XSS in user input,BUG-0345,2,technical
+XSS in user input,BUG-0371,2,technical
+XSS in user input,FEAT-0409,2,technical
+XSS in user input,FEAT-0455,2,technical
+XSS in user input,FEAT-0473,2,technical
+XSS in user input,FEAT-0484,2,technical
+XSS in user input,FEAT-0499,2,technical
+XSS in user input,FEAT-0576,2,technical
+XSS in user input,BUG-0005,1,technical
+XSS in user input,BUG-0007,1,technical
+XSS in user input,BUG-0008,1,technical
+XSS in user input,BUG-0009,1,technical
+XSS in user input,FEAT-0457,0,technical
+XSS in user input,FEAT-0460,0,technical
+XSS in user input,BUG-0130,0,technical
+XSS in user input,FEAT-0580,0,technical
+XSS in user input,BUG-0088,0,technical
+query performance degradation,BUG-0002,2,specific
+query performance degradation,BUG-0042,2,specific
+query performance degradation,BUG-0044,2,specific
+query performance degradation,BUG-0077,2,specific
+query performance degradation,BUG-0111,2,specific
+query performance degradation,BUG-0112,2,specific
+query performance degradation,BUG-0114,2,specific
+query performance degradation,BUG-0126,2,specific
+query performance degradation,BUG-0134,2,specific
+query performance degradation,BUG-0160,2,specific
+query performance degradation,BUG-0245,2,specific
+query performance degradation,BUG-0257,2,specific
+query performance degradation,BUG-0258,2,specific
+query performance degradation,BUG-0272,2,specific
+query performance degradation,BUG-0282,2,specific
+query performance degradation,BUG-0064,0,specific
+query performance degradation,FEAT-0431,0,specific
+query performance degradation,BUG-0318,0,specific
+query performance degradation,BUG-0182,0,specific
+query performance degradation,BUG-0268,0,specific
+login problems,BUG-0012,1,vague
+login problems,BUG-0017,1,vague
+login problems,BUG-0021,1,vague
+login problems,BUG-0064,1,vague
+login problems,BUG-0106,1,vague
+login problems,BUG-0130,1,vague
+login problems,BUG-0173,1,vague
+login problems,BUG-0178,1,vague
+login problems,BUG-0179,1,vague
+login problems,BUG-0183,1,vague
+login problems,BUG-0190,1,vague
+login problems,BUG-0196,1,vague
+login problems,BUG-0204,1,vague
+login problems,BUG-0217,1,vague
+login problems,BUG-0223,1,vague
+login problems,TASK-0667,0,vague
+login problems,TASK-0698,0,vague
+login problems,BUG-0215,0,vague
+login problems,TASK-0748,0,vague
+login problems,BUG-0385,0,vague
+audit logging,FEAT-0463,2,feature
+audit logging,FEAT-0501,2,feature
+audit logging,FEAT-0545,2,feature
+audit logging,FEAT-0547,2,feature
+audit logging,FEAT-0610,2,feature
+audit logging,FEAT-0650,2,feature
+audit logging,BUG-0040,1,feature
+audit logging,BUG-0140,1,feature
+audit logging,BUG-0160,1,feature
+audit logging,BUG-0283,1,feature
+audit logging,BUG-0288,1,feature
+audit logging,BUG-0346,1,feature
+audit logging,BUG-0400,1,feature
+audit logging,FEAT-0429,1,feature
+audit logging,FEAT-0457,1,feature
+audit logging,BUG-0193,0,feature
+audit logging,BUG-0179,0,feature
+audit logging,FEAT-0600,0,feature
+audit logging,BUG-0391,0,feature
+audit logging,TASK-0739,0,feature
+race condition in concurrent requests,BUG-0008,1,technical
+race condition in concurrent requests,BUG-0009,1,technical
+race condition in concurrent requests,BUG-0010,1,technical
+race condition in concurrent requests,BUG-0011,1,technical
+race condition in concurrent requests,BUG-0012,1,technical
+race condition in concurrent requests,BUG-0013,1,technical
+race condition in concurrent requests,BUG-0017,1,technical
+race condition in concurrent requests,BUG-0021,1,technical
+race condition in concurrent requests,BUG-0026,1,technical
+race condition in concurrent requests,BUG-0030,1,technical
+race condition in concurrent requests,BUG-0039,1,technical
+race condition in concurrent requests,BUG-0040,1,technical
+race condition in concurrent requests,BUG-0043,1,technical
+race condition in concurrent requests,BUG-0048,1,technical
+race condition in concurrent requests,BUG-0049,1,technical
+race condition in concurrent requests,BUG-0278,0,technical
+race condition in concurrent requests,TASK-0690,0,technical
+race condition in concurrent requests,BUG-0130,0,technical
+race condition in concurrent requests,FEAT-0402,0,technical
+race condition in concurrent requests,BUG-0114,0,technical
+session timeout not working,BUG-0020,2,specific
+session timeout not working,BUG-0033,2,specific
+session timeout not working,BUG-0038,2,specific
+session timeout not working,BUG-0041,2,specific
+session timeout not working,BUG-0067,2,specific
+session timeout not working,BUG-0101,2,specific
+session timeout not working,BUG-0119,2,specific
+session timeout not working,BUG-0145,2,specific
+session timeout not working,BUG-0155,2,specific
+session timeout not working,BUG-0203,2,specific
+session timeout not working,BUG-0244,2,specific
+session timeout not working,BUG-0247,2,specific
+session timeout not working,BUG-0302,2,specific
+session timeout not working,BUG-0376,2,specific
+session timeout not working,BUG-0002,1,specific
+session timeout not working,BUG-0348,0,specific
+session timeout not working,BUG-0219,0,specific
+session timeout not working,BUG-0051,0,specific
+session timeout not working,BUG-0395,0,specific
+session timeout not working,TASK-0654,0,specific
+page load slow,BUG-0004,1,vague
+page load slow,BUG-0043,1,vague
+page load slow,BUG-0060,1,vague
+page load slow,BUG-0079,1,vague
+page load slow,BUG-0086,1,vague
+page load slow,BUG-0098,1,vague
+page load slow,BUG-0102,1,vague
+page load slow,BUG-0104,1,vague
+page load slow,BUG-0129,1,vague
+page load slow,BUG-0131,1,vague
+page load slow,BUG-0186,1,vague
+page load slow,BUG-0259,1,vague
+page load slow,BUG-0289,1,vague
+page load slow,BUG-0318,1,vague
+page load slow,BUG-0328,1,vague
+page load slow,FEAT-0574,0,vague
+page load slow,FEAT-0494,0,vague
+page load slow,BUG-0244,0,vague
+page load slow,BUG-0252,0,vague
+page load slow,BUG-0018,0,vague
+code review needed,TASK-0661,0,task
+code review needed,BUG-0351,0,task
+code review needed,BUG-0392,0,task
+code review needed,FEAT-0544,0,task
+code review needed,BUG-0229,0,task
+export functionality,FEAT-0419,2,vague
+export functionality,FEAT-0456,2,vague
+export functionality,FEAT-0479,2,vague
+export functionality,FEAT-0570,2,vague
+export functionality,FEAT-0600,2,vague
+export functionality,FEAT-0601,2,vague
+export functionality,FEAT-0641,2,vague
+export functionality,BUG-0097,1,vague
+export functionality,BUG-0123,1,vague
+export functionality,BUG-0167,1,vague
+export functionality,BUG-0171,1,vague
+export functionality,BUG-0221,1,vague
+export functionality,BUG-0251,1,vague
+export functionality,BUG-0296,1,vague
+export functionality,FEAT-0402,1,vague
+export functionality,TASK-0766,0,vague
+export functionality,FEAT-0416,0,vague
+export functionality,BUG-0375,0,vague
+export functionality,BUG-0338,0,vague
+export functionality,TASK-0682,0,vague
+401 unauthorized error,BUG-0005,2,technical
+401 unauthorized error,BUG-0022,2,technical
+401 unauthorized error,BUG-0058,2,technical
+401 unauthorized error,BUG-0135,2,technical
+401 unauthorized error,BUG-0172,2,technical
+401 unauthorized error,BUG-0183,2,technical
+401 unauthorized error,BUG-0196,2,technical
+401 unauthorized error,BUG-0200,2,technical
+401 unauthorized error,BUG-0223,2,technical
+401 unauthorized error,BUG-0234,2,technical
+401 unauthorized error,BUG-0240,2,technical
+401 unauthorized error,BUG-0253,2,technical
+401 unauthorized error,BUG-0260,2,technical
+401 unauthorized error,BUG-0261,2,technical
+401 unauthorized error,BUG-0268,2,technical
+401 unauthorized error,BUG-0351,0,technical
+401 unauthorized error,FEAT-0505,0,technical
+401 unauthorized error,FEAT-0424,0,technical
+401 unauthorized error,FEAT-0461,0,technical
+401 unauthorized error,BUG-0316,0,technical
+memory leak in backend,BUG-0074,2,specific
+memory leak in backend,BUG-0095,2,specific
+memory leak in backend,BUG-0150,2,specific
+memory leak in backend,BUG-0185,2,specific
+memory leak in backend,BUG-0191,2,specific
+memory leak in backend,BUG-0201,2,specific
+memory leak in backend,BUG-0205,2,specific
+memory leak in backend,BUG-0212,2,specific
+memory leak in backend,BUG-0262,2,specific
+memory leak in backend,BUG-0274,2,specific
+memory leak in backend,BUG-0301,2,specific
+memory leak in backend,BUG-0310,2,specific
+memory leak in backend,BUG-0347,2,specific
+memory leak in backend,BUG-0371,2,specific
+memory leak in backend,BUG-0375,2,specific
+memory leak in backend,BUG-0354,0,specific
+memory leak in backend,BUG-0099,0,specific
+memory leak in backend,BUG-0397,0,specific
+memory leak in backend,BUG-0241,0,specific
+memory leak in backend,TASK-0663,0,specific
+JSON parsing error,BUG-0008,2,specific
+JSON parsing error,BUG-0030,2,specific
+JSON parsing error,BUG-0050,2,specific
+JSON parsing error,BUG-0056,2,specific
+JSON parsing error,BUG-0083,2,specific
+JSON parsing error,BUG-0087,2,specific
+JSON parsing error,BUG-0092,2,specific
+JSON parsing error,BUG-0181,2,specific
+JSON parsing error,BUG-0214,2,specific
+JSON parsing error,BUG-0228,2,specific
+JSON parsing error,BUG-0246,2,specific
+JSON parsing error,BUG-0266,2,specific
+JSON parsing error,BUG-0332,2,specific
+JSON parsing error,BUG-0339,2,specific
+JSON parsing error,BUG-0341,2,specific
+JSON parsing error,FEAT-0407,0,specific
+JSON parsing error,TASK-0746,0,specific
+JSON parsing error,FEAT-0516,0,specific
+JSON parsing error,TASK-0684,0,specific
+JSON parsing error,BUG-0049,0,specific
+CORS error in API gateway,BUG-0008,2,technical
+CORS error in API gateway,BUG-0030,2,technical
+CORS error in API gateway,BUG-0048,2,technical
+CORS error in API gateway,BUG-0050,2,technical
+CORS error in API gateway,BUG-0056,2,technical
+CORS error in API gateway,BUG-0076,2,technical
+CORS error in API gateway,BUG-0083,2,technical
+CORS error in API gateway,BUG-0087,2,technical
+CORS error in API gateway,BUG-0092,2,technical
+CORS error in API gateway,BUG-0095,2,technical
+CORS error in API gateway,BUG-0121,2,technical
+CORS error in API gateway,BUG-0128,2,technical
+CORS error in API gateway,BUG-0146,2,technical
+CORS error in API gateway,BUG-0151,2,technical
+CORS error in API gateway,BUG-0156,2,technical
+CORS error in API gateway,FEAT-0527,0,technical
+CORS error in API gateway,FEAT-0528,0,technical
+CORS error in API gateway,FEAT-0501,0,technical
+CORS error in API gateway,FEAT-0472,0,technical
+CORS error in API gateway,BUG-0115,0,technical
+validation error on form submission,BUG-0007,2,technical
+validation error on form submission,BUG-0015,2,technical
+validation error on form submission,BUG-0027,2,technical
+validation error on form submission,BUG-0031,2,technical
+validation error on form submission,BUG-0036,2,technical
+validation error on form submission,BUG-0037,2,technical
+validation error on form submission,BUG-0045,2,technical
+validation error on form submission,BUG-0053,2,technical
+validation error on form submission,BUG-0055,2,technical
+validation error on form submission,BUG-0068,2,technical
+validation error on form submission,BUG-0072,2,technical
+validation error on form submission,BUG-0080,2,technical
+validation error on form submission,BUG-0082,2,technical
+validation error on form submission,BUG-0096,2,technical
+validation error on form submission,BUG-0109,2,technical
+validation error on form submission,FEAT-0566,0,technical
+validation error on form submission,BUG-0161,0,technical
+validation error on form submission,BUG-0309,0,technical
+validation error on form submission,TASK-0700,0,technical
+API returns 500 error,BUG-0006,2,specific
+API returns 500 error,BUG-0018,2,specific
+API returns 500 error,BUG-0028,2,specific
+API returns 500 error,BUG-0047,2,specific
+API returns 500 error,BUG-0051,2,specific
+API returns 500 error,BUG-0071,2,specific
+API returns 500 error,BUG-0075,2,specific
+API returns 500 error,BUG-0100,2,specific
+API returns 500 error,BUG-0105,2,specific
+API returns 500 error,BUG-0107,2,specific
+API returns 500 error,BUG-0127,2,specific
+API returns 500 error,BUG-0142,2,specific
+API returns 500 error,BUG-0157,2,specific
+API returns 500 error,BUG-0162,2,specific
+API returns 500 error,BUG-0198,2,specific
+API returns 500 error,BUG-0078,0,specific
+API returns 500 error,BUG-0020,0,specific
+API returns 500 error,BUG-0376,0,specific
+API returns 500 error,FEAT-0620,0,specific
+high CPU usage,BUG-0024,2,specific
+high CPU usage,BUG-0052,2,specific
+high CPU usage,BUG-0057,2,specific
+high CPU usage,BUG-0062,2,specific
+high CPU usage,BUG-0081,2,specific
+high CPU usage,BUG-0116,2,specific
+high CPU usage,BUG-0163,2,specific
+high CPU usage,BUG-0164,2,specific
+high CPU usage,BUG-0177,2,specific
+high CPU usage,BUG-0229,2,specific
+high CPU usage,BUG-0231,2,specific
+high CPU usage,BUG-0233,2,specific
+high CPU usage,BUG-0281,2,specific
+high CPU usage,BUG-0323,2,specific
+high CPU usage,BUG-0385,2,specific
+high CPU usage,FEAT-0434,0,specific
+high CPU usage,TASK-0701,0,specific
+high CPU usage,BUG-0274,0,specific
+high CPU usage,BUG-0379,0,specific
+high CPU usage,BUG-0148,0,specific
+mobile responsive design,BUG-0094,2,feature
+mobile responsive design,BUG-0210,2,feature
+mobile responsive design,BUG-0211,2,feature
+mobile responsive design,BUG-0335,2,feature
+mobile responsive design,BUG-0356,2,feature
+mobile responsive design,BUG-0002,1,feature
+mobile responsive design,BUG-0012,1,feature
+mobile responsive design,BUG-0019,1,feature
+mobile responsive design,BUG-0054,1,feature
+mobile responsive design,BUG-0096,1,feature
+mobile responsive design,BUG-0109,1,feature
+mobile responsive design,BUG-0113,1,feature
+mobile responsive design,BUG-0118,1,feature
+mobile responsive design,BUG-0123,1,feature
+mobile responsive design,BUG-0125,1,feature
+mobile responsive design,TASK-0701,0,feature
+mobile responsive design,BUG-0308,0,feature
+mobile responsive design,FEAT-0514,0,feature
+mobile responsive design,TASK-0751,0,feature
+mobile responsive design,TASK-0686,0,feature
+NullPointerException in authentication,BUG-0074,2,technical
+NullPointerException in authentication,BUG-0008,1,technical
+NullPointerException in authentication,BUG-0009,1,technical
+NullPointerException in authentication,BUG-0010,1,technical
+NullPointerException in authentication,BUG-0012,1,technical
+NullPointerException in authentication,BUG-0017,1,technical
+NullPointerException in authentication,BUG-0019,1,technical
+NullPointerException in authentication,BUG-0021,1,technical
+NullPointerException in authentication,BUG-0030,1,technical
+NullPointerException in authentication,BUG-0032,1,technical
+NullPointerException in authentication,BUG-0033,1,technical
+NullPointerException in authentication,BUG-0037,1,technical
+NullPointerException in authentication,BUG-0039,1,technical
+NullPointerException in authentication,BUG-0040,1,technical
+NullPointerException in authentication,BUG-0043,1,technical
+NullPointerException in authentication,BUG-0362,0,technical
+NullPointerException in authentication,TASK-0719,0,technical
+NullPointerException in authentication,FEAT-0587,0,technical
+NullPointerException in authentication,TASK-0784,0,technical
+NullPointerException in authentication,BUG-0156,0,technical
+performance profiling,BUG-0002,1,task
+performance profiling,BUG-0004,1,task
+performance profiling,BUG-0007,1,task
+performance profiling,BUG-0009,1,task
+performance profiling,BUG-0011,1,task
+performance profiling,BUG-0013,1,task
+performance profiling,BUG-0014,1,task
+performance profiling,BUG-0015,1,task
+performance profiling,BUG-0016,1,task
+performance profiling,BUG-0018,1,task
+performance profiling,BUG-0024,1,task
+performance profiling,BUG-0027,1,task
+performance profiling,BUG-0035,1,task
+performance profiling,BUG-0036,1,task
+performance profiling,BUG-0038,1,task
+performance profiling,FEAT-0510,0,task
+performance profiling,BUG-0212,0,task
+performance profiling,BUG-0110,0,task
+performance profiling,BUG-0369,0,task
+performance profiling,FEAT-0432,0,task
+authentication,BUG-0019,2,vague
+authentication,BUG-0033,2,vague
+authentication,BUG-0043,2,vague
+authentication,BUG-0066,2,vague
+authentication,BUG-0071,2,vague
+authentication,BUG-0072,2,vague
+authentication,BUG-0074,2,vague
+authentication,BUG-0076,2,vague
+authentication,BUG-0077,2,vague
+authentication,BUG-0090,2,vague
+authentication,BUG-0095,2,vague
+authentication,BUG-0097,2,vague
+authentication,BUG-0103,2,vague
+authentication,BUG-0116,2,vague
+authentication,BUG-0120,2,vague
+authentication,BUG-0204,0,vague
+authentication,BUG-0086,0,vague
+authentication,TASK-0723,0,vague
+authentication,FEAT-0498,0,vague
+authentication,FEAT-0520,0,vague
+webhook delivery failures,BUG-0001,2,specific
+webhook delivery failures,BUG-0023,2,specific
+webhook delivery failures,BUG-0046,2,specific
+webhook delivery failures,BUG-0084,2,specific
+webhook delivery failures,BUG-0099,2,specific
+webhook delivery failures,BUG-0147,2,specific
+webhook delivery failures,BUG-0168,2,specific
+webhook delivery failures,BUG-0208,2,specific
+webhook delivery failures,BUG-0213,2,specific
+webhook delivery failures,BUG-0219,2,specific
+webhook delivery failures,BUG-0239,2,specific
+webhook delivery failures,BUG-0280,2,specific
+webhook delivery failures,BUG-0308,2,specific
+webhook delivery failures,BUG-0312,2,specific
+webhook delivery failures,BUG-0315,2,specific
+webhook delivery failures,FEAT-0599,0,specific
+webhook delivery failures,BUG-0030,0,specific
+webhook delivery failures,BUG-0120,0,specific
+webhook delivery failures,TASK-0677,0,specific
+webhook delivery failures,BUG-0198,0,specific
+report generation,TASK-0652,2,vague
+report generation,TASK-0670,2,vague
+report generation,TASK-0695,2,vague
+report generation,TASK-0726,2,vague
+report generation,TASK-0734,2,vague
+report generation,TASK-0736,2,vague
+report generation,BUG-0018,1,vague
+report generation,BUG-0024,1,vague
+report generation,BUG-0030,1,vague
+report generation,BUG-0043,1,vague
+report generation,BUG-0052,1,vague
+report generation,BUG-0060,1,vague
+report generation,BUG-0065,1,vague
+report generation,BUG-0081,1,vague
+report generation,BUG-0089,1,vague
+report generation,FEAT-0629,0,vague
+report generation,BUG-0333,0,vague
+report generation,BUG-0121,0,vague
+report generation,TASK-0664,0,vague
+report generation,BUG-0083,0,vague
+CORS error in API gateway,BUG-0008,2,technical
+CORS error in API gateway,BUG-0030,2,technical
+CORS error in API gateway,BUG-0048,2,technical
+CORS error in API gateway,BUG-0050,2,technical
+CORS error in API gateway,BUG-0056,2,technical
+CORS error in API gateway,BUG-0076,2,technical
+CORS error in API gateway,BUG-0083,2,technical
+CORS error in API gateway,BUG-0087,2,technical
+CORS error in API gateway,BUG-0092,2,technical
+CORS error in API gateway,BUG-0095,2,technical
+CORS error in API gateway,BUG-0121,2,technical
+CORS error in API gateway,BUG-0128,2,technical
+CORS error in API gateway,BUG-0146,2,technical
+CORS error in API gateway,BUG-0151,2,technical
+CORS error in API gateway,BUG-0156,2,technical
+CORS error in API gateway,BUG-0054,0,technical
+CORS error in API gateway,BUG-0123,0,technical
+CORS error in API gateway,FEAT-0402,0,technical
+CORS error in API gateway,FEAT-0499,0,technical
+CORS error in API gateway,BUG-0173,0,technical
+memory consumption over 1GB,BUG-0074,1,technical
+memory consumption over 1GB,BUG-0095,1,technical
+memory consumption over 1GB,BUG-0150,1,technical
+memory consumption over 1GB,BUG-0185,1,technical
+memory consumption over 1GB,BUG-0191,1,technical
+memory consumption over 1GB,BUG-0201,1,technical
+memory consumption over 1GB,BUG-0205,1,technical
+memory consumption over 1GB,BUG-0212,1,technical
+memory consumption over 1GB,BUG-0262,1,technical
+memory consumption over 1GB,BUG-0274,1,technical
+memory consumption over 1GB,BUG-0301,1,technical
+memory consumption over 1GB,BUG-0310,1,technical
+memory consumption over 1GB,BUG-0347,1,technical
+memory consumption over 1GB,BUG-0371,1,technical
+memory consumption over 1GB,BUG-0375,1,technical
+memory consumption over 1GB,BUG-0211,0,technical
+memory consumption over 1GB,FEAT-0553,0,technical
+memory consumption over 1GB,FEAT-0624,0,technical
+memory consumption over 1GB,BUG-0317,0,technical
+memory consumption over 1GB,TASK-0663,0,technical
+bulk delete functionality,FEAT-0407,2,feature
+bulk delete functionality,FEAT-0419,2,feature
+bulk delete functionality,FEAT-0431,2,feature
+bulk delete functionality,FEAT-0444,2,feature
+bulk delete functionality,FEAT-0448,2,feature
+bulk delete functionality,FEAT-0451,2,feature
+bulk delete functionality,FEAT-0456,2,feature
+bulk delete functionality,FEAT-0460,2,feature
+bulk delete functionality,FEAT-0461,2,feature
+bulk delete functionality,FEAT-0464,2,feature
+bulk delete functionality,FEAT-0479,2,feature
+bulk delete functionality,FEAT-0486,2,feature
+bulk delete functionality,FEAT-0493,2,feature
+bulk delete functionality,FEAT-0507,2,feature
+bulk delete functionality,FEAT-0509,2,feature
+bulk delete functionality,FEAT-0446,0,feature
+bulk delete functionality,BUG-0041,0,feature
+bulk delete functionality,BUG-0181,0,feature
+bulk delete functionality,FEAT-0505,0,feature
+bulk delete functionality,FEAT-0443,0,feature
+role based access control,FEAT-0423,2,feature
+role based access control,FEAT-0535,2,feature
+role based access control,FEAT-0538,2,feature
+role based access control,FEAT-0546,2,feature
+role based access control,FEAT-0627,2,feature
+role based access control,FEAT-0630,2,feature
+role based access control,FEAT-0454,1,feature
+role based access control,FEAT-0463,1,feature
+role based access control,FEAT-0585,1,feature
+role based access control,FEAT-0598,1,feature
+role based access control,FEAT-0605,1,feature
+role based access control,FEAT-0610,1,feature
+role based access control,BUG-0367,0,feature
+role based access control,BUG-0274,0,feature
+role based access control,FEAT-0510,0,feature
+role based access control,BUG-0109,0,feature
+role based access control,FEAT-0502,0,feature
+security issues,BUG-0002,1,vague
+security issues,BUG-0017,1,vague
+security issues,BUG-0020,1,vague
+security issues,BUG-0021,1,vague
+security issues,BUG-0022,1,vague
+security issues,BUG-0023,1,vague
+security issues,BUG-0025,1,vague
+security issues,BUG-0033,1,vague
+security issues,BUG-0038,1,vague
+security issues,BUG-0041,1,vague
+security issues,BUG-0043,1,vague
+security issues,BUG-0047,1,vague
+security issues,BUG-0059,1,vague
+security issues,BUG-0060,1,vague
+security issues,BUG-0067,1,vague
+security issues,FEAT-0587,0,vague
+security issues,BUG-0101,0,vague
+security issues,FEAT-0473,0,vague
+security issues,TASK-0773,0,vague
+two factor authentication,FEAT-0403,2,feature
+two factor authentication,FEAT-0435,2,feature
+two factor authentication,FEAT-0469,2,feature
+two factor authentication,FEAT-0518,2,feature
+two factor authentication,FEAT-0585,2,feature
+two factor authentication,FEAT-0637,2,feature
+two factor authentication,TASK-0698,2,feature
+two factor authentication,BUG-0019,1,feature
+two factor authentication,BUG-0033,1,feature
+two factor authentication,BUG-0043,1,feature
+two factor authentication,BUG-0066,1,feature
+two factor authentication,BUG-0071,1,feature
+two factor authentication,BUG-0072,1,feature
+two factor authentication,BUG-0074,1,feature
+two factor authentication,BUG-0076,1,feature
+two factor authentication,TASK-0766,0,feature
+two factor authentication,TASK-0730,0,feature
+two factor authentication,FEAT-0402,0,feature
+two factor authentication,FEAT-0471,0,feature
+two factor authentication,TASK-0684,0,feature
+update API docs,BUG-0006,1,task
+update API docs,BUG-0018,1,task
+update API docs,BUG-0028,1,task
+update API docs,BUG-0047,1,task
+update API docs,BUG-0051,1,task
+update API docs,BUG-0062,1,task
+update API docs,BUG-0071,1,task
+update API docs,BUG-0075,1,task
+update API docs,BUG-0081,1,task
+update API docs,BUG-0095,1,task
+update API docs,BUG-0100,1,task
+update API docs,BUG-0105,1,task
+update API docs,BUG-0107,1,task
+update API docs,BUG-0120,1,task
+update API docs,BUG-0127,1,task
+update API docs,BUG-0189,0,task
+update API docs,BUG-0138,0,task
+update API docs,BUG-0031,0,task
+update API docs,TASK-0776,0,task
+update API docs,FEAT-0428,0,task
+high CPU usage,BUG-0024,2,specific
+high CPU usage,BUG-0052,2,specific
+high CPU usage,BUG-0057,2,specific
+high CPU usage,BUG-0062,2,specific
+high CPU usage,BUG-0081,2,specific
+high CPU usage,BUG-0116,2,specific
+high CPU usage,BUG-0163,2,specific
+high CPU usage,BUG-0164,2,specific
+high CPU usage,BUG-0177,2,specific
+high CPU usage,BUG-0229,2,specific
+high CPU usage,BUG-0231,2,specific
+high CPU usage,BUG-0233,2,specific
+high CPU usage,BUG-0281,2,specific
+high CPU usage,BUG-0323,2,specific
+high CPU usage,BUG-0385,2,specific
+high CPU usage,TASK-0736,0,specific
+high CPU usage,TASK-0683,0,specific
+high CPU usage,BUG-0144,0,specific
+high CPU usage,BUG-0264,0,specific
+high CPU usage,BUG-0314,0,specific
+rate limiting not enforced,BUG-0013,2,specific
+rate limiting not enforced,BUG-0026,2,specific
+rate limiting not enforced,BUG-0049,2,specific
+rate limiting not enforced,BUG-0065,2,specific
+rate limiting not enforced,BUG-0085,2,specific
+rate limiting not enforced,BUG-0091,2,specific
+rate limiting not enforced,BUG-0108,2,specific
+rate limiting not enforced,BUG-0136,2,specific
+rate limiting not enforced,BUG-0149,2,specific
+rate limiting not enforced,BUG-0169,2,specific
+rate limiting not enforced,BUG-0222,2,specific
+rate limiting not enforced,BUG-0232,2,specific
+rate limiting not enforced,BUG-0242,2,specific
+rate limiting not enforced,BUG-0256,2,specific
+rate limiting not enforced,BUG-0273,2,specific
+rate limiting not enforced,FEAT-0615,0,specific
+rate limiting not enforced,TASK-0792,0,specific
+rate limiting not enforced,FEAT-0428,0,specific
+rate limiting not enforced,BUG-0071,0,specific
+rate limiting not enforced,FEAT-0609,0,specific
+redis cache miss rate high,BUG-0013,1,technical
+redis cache miss rate high,BUG-0024,1,technical
+redis cache miss rate high,BUG-0026,1,technical
+redis cache miss rate high,BUG-0049,1,technical
+redis cache miss rate high,BUG-0052,1,technical
+redis cache miss rate high,BUG-0057,1,technical
+redis cache miss rate high,BUG-0062,1,technical
+redis cache miss rate high,BUG-0065,1,technical
+redis cache miss rate high,BUG-0081,1,technical
+redis cache miss rate high,BUG-0085,1,technical
+redis cache miss rate high,BUG-0091,1,technical
+redis cache miss rate high,BUG-0108,1,technical
+redis cache miss rate high,BUG-0116,1,technical
+redis cache miss rate high,BUG-0136,1,technical
+redis cache miss rate high,BUG-0149,1,technical
+redis cache miss rate high,BUG-0135,0,technical
+redis cache miss rate high,FEAT-0650,0,technical
+redis cache miss rate high,BUG-0092,0,technical
+redis cache miss rate high,BUG-0373,0,technical
+authentication,BUG-0019,2,vague
+authentication,BUG-0033,2,vague
+authentication,BUG-0043,2,vague
+authentication,BUG-0066,2,vague
+authentication,BUG-0071,2,vague
+authentication,BUG-0072,2,vague
+authentication,BUG-0074,2,vague
+authentication,BUG-0076,2,vague
+authentication,BUG-0077,2,vague
+authentication,BUG-0090,2,vague
+authentication,BUG-0095,2,vague
+authentication,BUG-0097,2,vague
+authentication,BUG-0103,2,vague
+authentication,BUG-0116,2,vague
+authentication,BUG-0120,2,vague
+authentication,BUG-0114,0,vague
+authentication,BUG-0217,0,vague
+authentication,BUG-0324,0,vague
+authentication,BUG-0008,0,vague
+authentication,BUG-0386,0,vague
+database connection pool exhausted,BUG-0011,2,specific
+database connection pool exhausted,BUG-0014,2,specific
+database connection pool exhausted,BUG-0034,2,specific
+database connection pool exhausted,BUG-0059,2,specific
+database connection pool exhausted,BUG-0090,2,specific
+database connection pool exhausted,BUG-0139,2,specific
+database connection pool exhausted,BUG-0141,2,specific
+database connection pool exhausted,BUG-0174,2,specific
+database connection pool exhausted,BUG-0206,2,specific
+database connection pool exhausted,BUG-0227,2,specific
+database connection pool exhausted,BUG-0250,2,specific
+database connection pool exhausted,BUG-0269,2,specific
+database connection pool exhausted,BUG-0290,2,specific
+database connection pool exhausted,BUG-0300,2,specific
+database connection pool exhausted,BUG-0305,2,specific
+database connection pool exhausted,TASK-0788,0,specific
+database connection pool exhausted,FEAT-0437,0,specific
+database connection pool exhausted,BUG-0348,0,specific
+database connection pool exhausted,TASK-0715,0,specific
+database connection pool exhausted,TASK-0797,0,specific
+login fails with special characters in password,BUG-0005,2,specific
+login fails with special characters in password,BUG-0012,2,specific
+login fails with special characters in password,BUG-0017,2,specific
+login fails with special characters in password,BUG-0021,2,specific
+login fails with special characters in password,BUG-0022,2,specific
+login fails with special characters in password,BUG-0058,2,specific
+login fails with special characters in password,BUG-0064,2,specific
+login fails with special characters in password,BUG-0106,2,specific
+login fails with special characters in password,BUG-0130,2,specific
+login fails with special characters in password,BUG-0135,2,specific
+login fails with special characters in password,BUG-0172,2,specific
+login fails with special characters in password,BUG-0173,2,specific
+login fails with special characters in password,BUG-0178,2,specific
+login fails with special characters in password,BUG-0179,2,specific
+login fails with special characters in password,BUG-0183,2,specific
+login fails with special characters in password,FEAT-0474,0,specific
+login fails with special characters in password,BUG-0358,0,specific
+login fails with special characters in password,BUG-0044,0,specific
+login fails with special characters in password,FEAT-0601,0,specific
+login fails with special characters in password,BUG-0208,0,specific
+add export to CSV,FEAT-0405,2,feature
+add export to CSV,FEAT-0408,2,feature
+add export to CSV,FEAT-0418,2,feature
+add export to CSV,FEAT-0424,2,feature
+add export to CSV,FEAT-0425,2,feature
+add export to CSV,FEAT-0430,2,feature
+add export to CSV,FEAT-0482,2,feature
+add export to CSV,FEAT-0483,2,feature
+add export to CSV,FEAT-0487,2,feature
+add export to CSV,FEAT-0488,2,feature
+add export to CSV,FEAT-0489,2,feature
+add export to CSV,FEAT-0497,2,feature
+add export to CSV,FEAT-0498,2,feature
+add export to CSV,FEAT-0503,2,feature
+add export to CSV,FEAT-0513,2,feature
+add export to CSV,BUG-0399,0,feature
+add export to CSV,FEAT-0611,0,feature
+add export to CSV,BUG-0136,0,feature
+add export to CSV,FEAT-0536,0,feature
+add export to CSV,BUG-0297,0,feature
+infinite scroll not loading,BUG-0003,2,specific
+infinite scroll not loading,BUG-0025,2,specific
+infinite scroll not loading,BUG-0035,2,specific
+infinite scroll not loading,BUG-0066,2,specific
+infinite scroll not loading,BUG-0088,2,specific
+infinite scroll not loading,BUG-0089,2,specific
+infinite scroll not loading,BUG-0110,2,specific
+infinite scroll not loading,BUG-0124,2,specific
+infinite scroll not loading,BUG-0133,2,specific
+infinite scroll not loading,BUG-0137,2,specific
+infinite scroll not loading,BUG-0152,2,specific
+infinite scroll not loading,BUG-0182,2,specific
+infinite scroll not loading,BUG-0184,2,specific
+infinite scroll not loading,BUG-0215,2,specific
+infinite scroll not loading,BUG-0249,2,specific
+infinite scroll not loading,BUG-0380,0,specific
+infinite scroll not loading,TASK-0702,0,specific
+infinite scroll not loading,BUG-0206,0,specific
+infinite scroll not loading,BUG-0353,0,specific
+infinite scroll not loading,FEAT-0512,0,specific
+timeout,BUG-0007,2,vague
+timeout,BUG-0008,2,vague
+timeout,BUG-0015,2,vague
+timeout,BUG-0020,2,vague
+timeout,BUG-0027,2,vague
+timeout,BUG-0033,2,vague
+timeout,BUG-0036,2,vague
+timeout,BUG-0038,2,vague
+timeout,BUG-0041,2,vague
+timeout,BUG-0050,2,vague
+timeout,BUG-0055,2,vague
+timeout,BUG-0067,2,vague
+timeout,BUG-0068,2,vague
+timeout,BUG-0072,2,vague
+timeout,BUG-0076,2,vague
+timeout,FEAT-0627,0,vague
+timeout,BUG-0243,0,vague
+timeout,TASK-0719,0,vague
+timeout,FEAT-0576,0,vague
+timeout,BUG-0201,0,vague
+data inconsistency in users table,BUG-0009,2,specific
+data inconsistency in users table,BUG-0010,2,specific
+data inconsistency in users table,BUG-0039,2,specific
+data inconsistency in users table,BUG-0040,2,specific
+data inconsistency in users table,BUG-0063,2,specific
+data inconsistency in users table,BUG-0070,2,specific
+data inconsistency in users table,BUG-0140,2,specific
+data inconsistency in users table,BUG-0143,2,specific
+data inconsistency in users table,BUG-0148,2,specific
+data inconsistency in users table,BUG-0165,2,specific
+data inconsistency in users table,BUG-0175,2,specific
+data inconsistency in users table,BUG-0180,2,specific
+data inconsistency in users table,BUG-0197,2,specific
+data inconsistency in users table,BUG-0218,2,specific
+data inconsistency in users table,BUG-0226,2,specific
+data inconsistency in users table,FEAT-0425,0,specific
+data inconsistency in users table,FEAT-0406,0,specific
+data inconsistency in users table,BUG-0147,0,specific
+data inconsistency in users table,BUG-0153,0,specific
+data inconsistency in users table,BUG-0370,0,specific
+email notifications,FEAT-0401,2,feature
+email notifications,FEAT-0433,2,feature
+email notifications,FEAT-0447,2,feature
+email notifications,FEAT-0472,2,feature
+email notifications,FEAT-0494,2,feature
+email notifications,FEAT-0534,2,feature
+email notifications,FEAT-0552,2,feature
+email notifications,FEAT-0579,2,feature
+email notifications,FEAT-0594,2,feature
+email notifications,FEAT-0602,2,feature
+email notifications,FEAT-0649,2,feature
+email notifications,BUG-0016,1,feature
+email notifications,BUG-0029,1,feature
+email notifications,BUG-0045,1,feature
+email notifications,BUG-0069,1,feature
+email notifications,BUG-0244,0,feature
+email notifications,FEAT-0567,0,feature
+email notifications,BUG-0245,0,feature
+email notifications,FEAT-0402,0,feature
+email notifications,TASK-0796,0,feature
+password reset email not sent,BUG-0005,2,specific
+password reset email not sent,BUG-0016,2,specific
+password reset email not sent,BUG-0029,2,specific
+password reset email not sent,BUG-0069,2,specific
+password reset email not sent,BUG-0078,2,specific
+password reset email not sent,BUG-0103,2,specific
+password reset email not sent,BUG-0113,2,specific
+password reset email not sent,BUG-0144,2,specific
+password reset email not sent,BUG-0153,2,specific
+password reset email not sent,BUG-0154,2,specific
+password reset email not sent,BUG-0158,2,specific
+password reset email not sent,BUG-0170,2,specific
+password reset email not sent,BUG-0172,2,specific
+password reset email not sent,BUG-0188,2,specific
+password reset email not sent,BUG-0193,2,specific
+password reset email not sent,BUG-0091,0,specific
+password reset email not sent,BUG-0278,0,specific
+password reset email not sent,FEAT-0461,0,specific
+password reset email not sent,FEAT-0419,0,specific
+password reset email not sent,BUG-0062,0,specific
+search not working,BUG-0020,2,vague
+search not working,BUG-0033,2,vague
+search not working,BUG-0038,2,vague
+search not working,BUG-0041,2,vague
+search not working,BUG-0067,2,vague
+search not working,BUG-0101,2,vague
+search not working,BUG-0119,2,vague
+search not working,BUG-0125,2,vague
+search not working,BUG-0145,2,vague
+search not working,BUG-0155,2,vague
+search not working,BUG-0203,2,vague
+search not working,BUG-0210,2,vague
+search not working,BUG-0211,2,vague
+search not working,BUG-0224,2,vague
+search not working,BUG-0244,2,vague
+search not working,TASK-0692,0,vague
+search not working,TASK-0674,0,vague
+search not working,FEAT-0587,0,vague
+search not working,TASK-0684,0,vague
+search not working,BUG-0187,0,vague
+database connection pool exhausted,BUG-0011,2,specific
+database connection pool exhausted,BUG-0014,2,specific
+database connection pool exhausted,BUG-0034,2,specific
+database connection pool exhausted,BUG-0059,2,specific
+database connection pool exhausted,BUG-0090,2,specific
+database connection pool exhausted,BUG-0139,2,specific
+database connection pool exhausted,BUG-0141,2,specific
+database connection pool exhausted,BUG-0174,2,specific
+database connection pool exhausted,BUG-0206,2,specific
+database connection pool exhausted,BUG-0227,2,specific
+database connection pool exhausted,BUG-0250,2,specific
+database connection pool exhausted,BUG-0269,2,specific
+database connection pool exhausted,BUG-0290,2,specific
+database connection pool exhausted,BUG-0300,2,specific
+database connection pool exhausted,BUG-0305,2,specific
+database connection pool exhausted,TASK-0676,0,specific
+database connection pool exhausted,FEAT-0644,0,specific
+database connection pool exhausted,BUG-0275,0,specific
+database connection pool exhausted,BUG-0313,0,specific
+database connection pool exhausted,FEAT-0600,0,specific
+search with autocomplete,BUG-0005,1,feature
+search with autocomplete,BUG-0012,1,feature
+search with autocomplete,BUG-0017,1,feature
+search with autocomplete,BUG-0021,1,feature
+search with autocomplete,BUG-0022,1,feature
+search with autocomplete,BUG-0058,1,feature
+search with autocomplete,BUG-0064,1,feature
+search with autocomplete,BUG-0106,1,feature
+search with autocomplete,BUG-0125,1,feature
+search with autocomplete,BUG-0130,1,feature
+search with autocomplete,BUG-0135,1,feature
+search with autocomplete,BUG-0172,1,feature
+search with autocomplete,BUG-0173,1,feature
+search with autocomplete,BUG-0178,1,feature
+search with autocomplete,BUG-0179,1,feature
+search with autocomplete,BUG-0232,0,feature
+search with autocomplete,BUG-0073,0,feature
+search with autocomplete,BUG-0120,0,feature
+search with autocomplete,TASK-0672,0,feature
+search with autocomplete,BUG-0161,0,feature
+frontend bugs,BUG-0001,1,vague
+frontend bugs,BUG-0007,1,vague
+frontend bugs,BUG-0010,1,vague
+frontend bugs,BUG-0029,1,vague
+frontend bugs,BUG-0032,1,vague
+frontend bugs,BUG-0040,1,vague
+frontend bugs,BUG-0043,1,vague
+frontend bugs,BUG-0046,1,vague
+frontend bugs,BUG-0048,1,vague
+frontend bugs,BUG-0054,1,vague
+frontend bugs,BUG-0058,1,vague
+frontend bugs,BUG-0070,1,vague
+frontend bugs,BUG-0091,1,vague
+frontend bugs,BUG-0107,1,vague
+frontend bugs,BUG-0113,1,vague
+frontend bugs,FEAT-0517,0,vague
+frontend bugs,FEAT-0474,0,vague
+frontend bugs,BUG-0328,0,vague
+frontend bugs,FEAT-0549,0,vague
+frontend bugs,BUG-0261,0,vague
+dashboard with metrics,BUG-0005,1,feature
+dashboard with metrics,BUG-0012,1,feature
+dashboard with metrics,BUG-0017,1,feature
+dashboard with metrics,BUG-0021,1,feature
+dashboard with metrics,BUG-0022,1,feature
+dashboard with metrics,BUG-0058,1,feature
+dashboard with metrics,BUG-0064,1,feature
+dashboard with metrics,BUG-0079,1,feature
+dashboard with metrics,BUG-0106,1,feature
+dashboard with metrics,BUG-0130,1,feature
+dashboard with metrics,BUG-0135,1,feature
+dashboard with metrics,BUG-0172,1,feature
+dashboard with metrics,BUG-0173,1,feature
+dashboard with metrics,BUG-0178,1,feature
+dashboard with metrics,BUG-0179,1,feature
+dashboard with metrics,BUG-0236,0,feature
+dashboard with metrics,TASK-0756,0,feature
+dashboard with metrics,FEAT-0597,0,feature
+dashboard with metrics,FEAT-0517,0,feature
+dashboard with metrics,TASK-0698,0,feature
+database issues,BUG-0004,1,vague
+database issues,BUG-0007,1,vague
+database issues,BUG-0011,1,vague
+database issues,BUG-0014,1,vague
+database issues,BUG-0015,1,vague
+database issues,BUG-0024,1,vague
+database issues,BUG-0027,1,vague
+database issues,BUG-0034,1,vague
+database issues,BUG-0035,1,vague
+database issues,BUG-0036,1,vague
+database issues,BUG-0038,1,vague
+database issues,BUG-0054,1,vague
+database issues,BUG-0055,1,vague
+database issues,BUG-0059,1,vague
+database issues,BUG-0061,1,vague
+database issues,BUG-0390,0,vague
+database issues,BUG-0257,0,vague
+database issues,FEAT-0601,0,vague
+database issues,BUG-0179,0,vague
+database issues,FEAT-0649,0,vague
+validation error on form submission,BUG-0007,2,technical
+validation error on form submission,BUG-0015,2,technical
+validation error on form submission,BUG-0027,2,technical
+validation error on form submission,BUG-0031,2,technical
+validation error on form submission,BUG-0036,2,technical
+validation error on form submission,BUG-0037,2,technical
+validation error on form submission,BUG-0045,2,technical
+validation error on form submission,BUG-0053,2,technical
+validation error on form submission,BUG-0055,2,technical
+validation error on form submission,BUG-0068,2,technical
+validation error on form submission,BUG-0072,2,technical
+validation error on form submission,BUG-0080,2,technical
+validation error on form submission,BUG-0082,2,technical
+validation error on form submission,BUG-0096,2,technical
+validation error on form submission,BUG-0109,2,technical
+validation error on form submission,FEAT-0503,0,technical
+validation error on form submission,TASK-0704,0,technical
+validation error on form submission,BUG-0326,0,technical
+validation error on form submission,BUG-0346,0,technical
+validation error on form submission,BUG-0306,0,technical
+improve documentation,FEAT-0405,1,task
+improve documentation,FEAT-0406,1,task
+improve documentation,FEAT-0407,1,task
+improve documentation,FEAT-0408,1,task
+improve documentation,FEAT-0409,1,task
+improve documentation,FEAT-0410,1,task
+improve documentation,FEAT-0412,1,task
+improve documentation,FEAT-0413,1,task
+improve documentation,FEAT-0418,1,task
+improve documentation,FEAT-0419,1,task
+improve documentation,FEAT-0425,1,task
+improve documentation,FEAT-0430,1,task
+improve documentation,FEAT-0431,1,task
+improve documentation,FEAT-0432,1,task
+improve documentation,FEAT-0434,1,task
+improve documentation,TASK-0677,0,task
+improve documentation,TASK-0764,0,task
+improve documentation,FEAT-0552,0,task
+improve documentation,TASK-0760,0,task
+improve documentation,BUG-0280,0,task
+redis cache miss rate high,BUG-0013,1,technical
+redis cache miss rate high,BUG-0024,1,technical
+redis cache miss rate high,BUG-0026,1,technical
+redis cache miss rate high,BUG-0049,1,technical
+redis cache miss rate high,BUG-0052,1,technical
+redis cache miss rate high,BUG-0057,1,technical
+redis cache miss rate high,BUG-0062,1,technical
+redis cache miss rate high,BUG-0065,1,technical
+redis cache miss rate high,BUG-0081,1,technical
+redis cache miss rate high,BUG-0085,1,technical
+redis cache miss rate high,BUG-0091,1,technical
+redis cache miss rate high,BUG-0108,1,technical
+redis cache miss rate high,BUG-0116,1,technical
+redis cache miss rate high,BUG-0136,1,technical
+redis cache miss rate high,BUG-0149,1,technical
+redis cache miss rate high,BUG-0137,0,technical
+redis cache miss rate high,FEAT-0476,0,technical
+redis cache miss rate high,BUG-0157,0,technical
+redis cache miss rate high,FEAT-0641,0,technical
+redis cache miss rate high,TASK-0684,0,technical
+scheduled reports,BUG-0018,1,feature
+scheduled reports,BUG-0030,1,feature
+scheduled reports,BUG-0136,1,feature
+scheduled reports,BUG-0156,1,feature
+scheduled reports,BUG-0194,1,feature
+scheduled reports,BUG-0208,1,feature
+scheduled reports,BUG-0230,1,feature
+scheduled reports,BUG-0242,1,feature
+scheduled reports,BUG-0264,1,feature
+scheduled reports,BUG-0280,1,feature
+scheduled reports,BUG-0319,1,feature
+scheduled reports,BUG-0339,1,feature
+scheduled reports,FEAT-0406,1,feature
+scheduled reports,FEAT-0412,1,feature
+scheduled reports,FEAT-0414,1,feature
+scheduled reports,BUG-0117,0,feature
+scheduled reports,BUG-0071,0,feature
+scheduled reports,BUG-0220,0,feature
+scheduled reports,BUG-0180,0,feature
+scheduled reports,BUG-0241,0,feature
+search with autocomplete,BUG-0005,1,feature
+search with autocomplete,BUG-0012,1,feature
+search with autocomplete,BUG-0017,1,feature
+search with autocomplete,BUG-0021,1,feature
+search with autocomplete,BUG-0022,1,feature
+search with autocomplete,BUG-0058,1,feature
+search with autocomplete,BUG-0064,1,feature
+search with autocomplete,BUG-0106,1,feature
+search with autocomplete,BUG-0125,1,feature
+search with autocomplete,BUG-0130,1,feature
+search with autocomplete,BUG-0135,1,feature
+search with autocomplete,BUG-0172,1,feature
+search with autocomplete,BUG-0173,1,feature
+search with autocomplete,BUG-0178,1,feature
+search with autocomplete,BUG-0179,1,feature
+search with autocomplete,BUG-0370,0,feature
+search with autocomplete,BUG-0128,0,feature
+search with autocomplete,BUG-0043,0,feature
+search with autocomplete,FEAT-0622,0,feature
+search with autocomplete,FEAT-0643,0,feature
+security audit,BUG-0002,1,task
+security audit,BUG-0017,1,task
+security audit,BUG-0020,1,task
+security audit,BUG-0021,1,task
+security audit,BUG-0022,1,task
+security audit,BUG-0023,1,task
+security audit,BUG-0025,1,task
+security audit,BUG-0033,1,task
+security audit,BUG-0038,1,task
+security audit,BUG-0040,1,task
+security audit,BUG-0041,1,task
+security audit,BUG-0043,1,task
+security audit,BUG-0047,1,task
+security audit,BUG-0059,1,task
+security audit,BUG-0060,1,task
+security audit,BUG-0190,0,task
+security audit,BUG-0302,0,task
+security audit,BUG-0216,0,task
+security audit,BUG-0157,0,task
+security audit,FEAT-0634,0,task
+user management,BUG-0048,2,vague
+user management,BUG-0076,2,vague
+user management,BUG-0128,2,vague
+user management,BUG-0345,2,vague
+user management,FEAT-0402,2,vague
+user management,FEAT-0409,2,vague
+user management,FEAT-0452,2,vague
+user management,FEAT-0455,2,vague
+user management,FEAT-0473,2,vague
+user management,FEAT-0484,2,vague
+user management,FEAT-0499,2,vague
+user management,FEAT-0543,2,vague
+user management,FEAT-0548,2,vague
+user management,FEAT-0572,2,vague
+user management,FEAT-0576,2,vague
+user management,FEAT-0634,0,vague
+user management,BUG-0284,0,vague
+user management,BUG-0045,0,vague
+user management,TASK-0747,0,vague
+user management,FEAT-0424,0,vague
+code review needed,BUG-0096,0,task
+code review needed,FEAT-0607,0,task
+code review needed,TASK-0707,0,task
+code review needed,FEAT-0560,0,task
+code review needed,BUG-0150,0,task
+XSS in user input,BUG-0048,2,technical
+XSS in user input,BUG-0076,2,technical
+XSS in user input,BUG-0128,2,technical
+XSS in user input,BUG-0345,2,technical
+XSS in user input,BUG-0371,2,technical
+XSS in user input,FEAT-0409,2,technical
+XSS in user input,FEAT-0455,2,technical
+XSS in user input,FEAT-0473,2,technical
+XSS in user input,FEAT-0484,2,technical
+XSS in user input,FEAT-0499,2,technical
+XSS in user input,FEAT-0576,2,technical
+XSS in user input,BUG-0005,1,technical
+XSS in user input,BUG-0007,1,technical
+XSS in user input,BUG-0008,1,technical
+XSS in user input,BUG-0009,1,technical
+XSS in user input,BUG-0241,0,technical
+XSS in user input,FEAT-0522,0,technical
+XSS in user input,FEAT-0454,0,technical
+XSS in user input,BUG-0390,0,technical
+XSS in user input,BUG-0082,0,technical
+timeout,BUG-0007,2,vague
+timeout,BUG-0008,2,vague
+timeout,BUG-0015,2,vague
+timeout,BUG-0020,2,vague
+timeout,BUG-0027,2,vague
+timeout,BUG-0033,2,vague
+timeout,BUG-0036,2,vague
+timeout,BUG-0038,2,vague
+timeout,BUG-0041,2,vague
+timeout,BUG-0050,2,vague
+timeout,BUG-0055,2,vague
+timeout,BUG-0067,2,vague
+timeout,BUG-0068,2,vague
+timeout,BUG-0072,2,vague
+timeout,BUG-0076,2,vague
+timeout,TASK-0716,0,vague
+timeout,FEAT-0594,0,vague
+timeout,FEAT-0524,0,vague
+timeout,FEAT-0540,0,vague
+timeout,BUG-0005,0,vague
+filter by date range,FEAT-0406,1,feature
+filter by date range,FEAT-0409,1,feature
+filter by date range,FEAT-0410,1,feature
+filter by date range,FEAT-0412,1,feature
+filter by date range,FEAT-0413,1,feature
+filter by date range,FEAT-0432,1,feature
+filter by date range,FEAT-0434,1,feature
+filter by date range,FEAT-0436,1,feature
+filter by date range,FEAT-0437,1,feature
+filter by date range,FEAT-0441,1,feature
+filter by date range,FEAT-0442,1,feature
+filter by date range,FEAT-0443,1,feature
+filter by date range,FEAT-0445,1,feature
+filter by date range,FEAT-0455,1,feature
+filter by date range,FEAT-0459,1,feature
+filter by date range,FEAT-0418,0,feature
+filter by date range,FEAT-0627,0,feature
+filter by date range,FEAT-0462,0,feature
+filter by date range,BUG-0229,0,feature
+filter by date range,BUG-0174,0,feature
+rate limiting not enforced,BUG-0013,2,specific
+rate limiting not enforced,BUG-0026,2,specific
+rate limiting not enforced,BUG-0049,2,specific
+rate limiting not enforced,BUG-0065,2,specific
+rate limiting not enforced,BUG-0085,2,specific
+rate limiting not enforced,BUG-0091,2,specific
+rate limiting not enforced,BUG-0108,2,specific
+rate limiting not enforced,BUG-0136,2,specific
+rate limiting not enforced,BUG-0149,2,specific
+rate limiting not enforced,BUG-0169,2,specific
+rate limiting not enforced,BUG-0222,2,specific
+rate limiting not enforced,BUG-0232,2,specific
+rate limiting not enforced,BUG-0242,2,specific
+rate limiting not enforced,BUG-0256,2,specific
+rate limiting not enforced,BUG-0273,2,specific
+rate limiting not enforced,BUG-0359,0,specific
+rate limiting not enforced,TASK-0713,0,specific
+rate limiting not enforced,BUG-0205,0,specific
+rate limiting not enforced,TASK-0790,0,specific
+rate limiting not enforced,BUG-0057,0,specific
+dark mode,BUG-0058,0,feature
+dark mode,TASK-0651,0,feature
+dark mode,FEAT-0412,0,feature
+dark mode,FEAT-0498,0,feature
+dark mode,TASK-0709,0,feature
+connection refused error,BUG-0005,1,technical
+connection refused error,BUG-0007,1,technical
+connection refused error,BUG-0008,1,technical
+connection refused error,BUG-0011,1,technical
+connection refused error,BUG-0012,1,technical
+connection refused error,BUG-0014,1,technical
+connection refused error,BUG-0015,1,technical
+connection refused error,BUG-0017,1,technical
+connection refused error,BUG-0018,1,technical
+connection refused error,BUG-0021,1,technical
+connection refused error,BUG-0022,1,technical
+connection refused error,BUG-0027,1,technical
+connection refused error,BUG-0029,1,technical
+connection refused error,BUG-0030,1,technical
+connection refused error,BUG-0031,1,technical
+connection refused error,BUG-0313,0,technical
+connection refused error,BUG-0103,0,technical
+connection refused error,BUG-0174,0,technical
+connection refused error,BUG-0352,0,technical
+connection refused error,TASK-0692,0,technical
+security issues,BUG-0002,1,vague
+security issues,BUG-0017,1,vague
+security issues,BUG-0020,1,vague
+security issues,BUG-0021,1,vague
+security issues,BUG-0022,1,vague
+security issues,BUG-0023,1,vague
+security issues,BUG-0025,1,vague
+security issues,BUG-0033,1,vague
+security issues,BUG-0038,1,vague
+security issues,BUG-0041,1,vague
+security issues,BUG-0043,1,vague
+security issues,BUG-0047,1,vague
+security issues,BUG-0059,1,vague
+security issues,BUG-0060,1,vague
+security issues,BUG-0067,1,vague
+security issues,BUG-0314,0,vague
+security issues,FEAT-0558,0,vague
+security issues,TASK-0707,0,vague
+security issues,TASK-0681,0,vague
+security issues,FEAT-0437,0,vague
+add export to CSV,FEAT-0405,2,feature
+add export to CSV,FEAT-0408,2,feature
+add export to CSV,FEAT-0418,2,feature
+add export to CSV,FEAT-0424,2,feature
+add export to CSV,FEAT-0425,2,feature
+add export to CSV,FEAT-0430,2,feature
+add export to CSV,FEAT-0482,2,feature
+add export to CSV,FEAT-0483,2,feature
+add export to CSV,FEAT-0487,2,feature
+add export to CSV,FEAT-0488,2,feature
+add export to CSV,FEAT-0489,2,feature
+add export to CSV,FEAT-0497,2,feature
+add export to CSV,FEAT-0498,2,feature
+add export to CSV,FEAT-0503,2,feature
+add export to CSV,FEAT-0513,2,feature
+add export to CSV,FEAT-0419,0,feature
+add export to CSV,BUG-0121,0,feature
+add export to CSV,FEAT-0505,0,feature
+add export to CSV,FEAT-0455,0,feature
+add export to CSV,BUG-0104,0,feature
+rate limiting not enforced,BUG-0013,2,specific
+rate limiting not enforced,BUG-0026,2,specific
+rate limiting not enforced,BUG-0049,2,specific
+rate limiting not enforced,BUG-0065,2,specific
+rate limiting not enforced,BUG-0085,2,specific
+rate limiting not enforced,BUG-0091,2,specific
+rate limiting not enforced,BUG-0108,2,specific
+rate limiting not enforced,BUG-0136,2,specific
+rate limiting not enforced,BUG-0149,2,specific
+rate limiting not enforced,BUG-0169,2,specific
+rate limiting not enforced,BUG-0222,2,specific
+rate limiting not enforced,BUG-0232,2,specific
+rate limiting not enforced,BUG-0242,2,specific
+rate limiting not enforced,BUG-0256,2,specific
+rate limiting not enforced,BUG-0273,2,specific
+rate limiting not enforced,BUG-0342,0,specific
+rate limiting not enforced,FEAT-0432,0,specific
+rate limiting not enforced,BUG-0039,0,specific
+rate limiting not enforced,BUG-0254,0,specific
+rate limiting not enforced,BUG-0068,0,specific
+session timeout not working,BUG-0020,2,specific
+session timeout not working,BUG-0033,2,specific
+session timeout not working,BUG-0038,2,specific
+session timeout not working,BUG-0041,2,specific
+session timeout not working,BUG-0067,2,specific
+session timeout not working,BUG-0101,2,specific
+session timeout not working,BUG-0119,2,specific
+session timeout not working,BUG-0145,2,specific
+session timeout not working,BUG-0155,2,specific
+session timeout not working,BUG-0203,2,specific
+session timeout not working,BUG-0244,2,specific
+session timeout not working,BUG-0247,2,specific
+session timeout not working,BUG-0302,2,specific
+session timeout not working,BUG-0376,2,specific
+session timeout not working,BUG-0002,1,specific
+session timeout not working,TASK-0697,0,specific
+session timeout not working,FEAT-0419,0,specific
+session timeout not working,BUG-0072,0,specific
+session timeout not working,TASK-0744,0,specific
+session timeout not working,FEAT-0468,0,specific
+page load slow,BUG-0004,1,vague
+page load slow,BUG-0043,1,vague
+page load slow,BUG-0060,1,vague
+page load slow,BUG-0079,1,vague
+page load slow,BUG-0086,1,vague
+page load slow,BUG-0098,1,vague
+page load slow,BUG-0102,1,vague
+page load slow,BUG-0104,1,vague
+page load slow,BUG-0129,1,vague
+page load slow,BUG-0131,1,vague
+page load slow,BUG-0186,1,vague
+page load slow,BUG-0259,1,vague
+page load slow,BUG-0289,1,vague
+page load slow,BUG-0318,1,vague
+page load slow,BUG-0328,1,vague
+page load slow,FEAT-0461,0,vague
+page load slow,BUG-0074,0,vague
+page load slow,BUG-0397,0,vague
+page load slow,FEAT-0429,0,vague
+page load slow,BUG-0143,0,vague
+dark mode,TASK-0707,0,feature
+dark mode,BUG-0253,0,feature
+dark mode,BUG-0022,0,feature
+dark mode,FEAT-0452,0,feature
+dark mode,BUG-0338,0,feature
+NullPointerException in authentication,BUG-0074,2,technical
+NullPointerException in authentication,BUG-0008,1,technical
+NullPointerException in authentication,BUG-0009,1,technical
+NullPointerException in authentication,BUG-0010,1,technical
+NullPointerException in authentication,BUG-0012,1,technical
+NullPointerException in authentication,BUG-0017,1,technical
+NullPointerException in authentication,BUG-0019,1,technical
+NullPointerException in authentication,BUG-0021,1,technical
+NullPointerException in authentication,BUG-0030,1,technical
+NullPointerException in authentication,BUG-0032,1,technical
+NullPointerException in authentication,BUG-0033,1,technical
+NullPointerException in authentication,BUG-0037,1,technical
+NullPointerException in authentication,BUG-0039,1,technical
+NullPointerException in authentication,BUG-0040,1,technical
+NullPointerException in authentication,BUG-0043,1,technical
+NullPointerException in authentication,BUG-0024,0,technical
+NullPointerException in authentication,BUG-0134,0,technical
+NullPointerException in authentication,TASK-0698,0,technical
+NullPointerException in authentication,BUG-0369,0,technical
+NullPointerException in authentication,FEAT-0563,0,technical
+data inconsistency in users table,BUG-0009,2,specific
+data inconsistency in users table,BUG-0010,2,specific
+data inconsistency in users table,BUG-0039,2,specific
+data inconsistency in users table,BUG-0040,2,specific
+data inconsistency in users table,BUG-0063,2,specific
+data inconsistency in users table,BUG-0070,2,specific
+data inconsistency in users table,BUG-0140,2,specific
+data inconsistency in users table,BUG-0143,2,specific
+data inconsistency in users table,BUG-0148,2,specific
+data inconsistency in users table,BUG-0165,2,specific
+data inconsistency in users table,BUG-0175,2,specific
+data inconsistency in users table,BUG-0180,2,specific
+data inconsistency in users table,BUG-0197,2,specific
+data inconsistency in users table,BUG-0218,2,specific
+data inconsistency in users table,BUG-0226,2,specific
+data inconsistency in users table,BUG-0272,0,specific
+data inconsistency in users table,BUG-0121,0,specific
+data inconsistency in users table,TASK-0768,0,specific
+data inconsistency in users table,BUG-0361,0,specific
+form validation missing,BUG-0031,2,specific
+form validation missing,BUG-0037,2,specific
+form validation missing,BUG-0045,2,specific
+form validation missing,BUG-0053,2,specific
+form validation missing,BUG-0080,2,specific
+form validation missing,BUG-0115,2,specific
+form validation missing,BUG-0216,2,specific
+form validation missing,BUG-0220,2,specific
+form validation missing,BUG-0225,2,specific
+form validation missing,BUG-0279,2,specific
+form validation missing,BUG-0285,2,specific
+form validation missing,BUG-0313,2,specific
+form validation missing,BUG-0324,2,specific
+form validation missing,BUG-0338,2,specific
+form validation missing,BUG-0340,2,specific
+form validation missing,FEAT-0425,0,specific
+form validation missing,FEAT-0411,0,specific
+form validation missing,FEAT-0459,0,specific
+form validation missing,BUG-0131,0,specific
+form validation missing,BUG-0103,0,specific
+bulk delete functionality,FEAT-0407,2,feature
+bulk delete functionality,FEAT-0419,2,feature
+bulk delete functionality,FEAT-0431,2,feature
+bulk delete functionality,FEAT-0444,2,feature
+bulk delete functionality,FEAT-0448,2,feature
+bulk delete functionality,FEAT-0451,2,feature
+bulk delete functionality,FEAT-0456,2,feature
+bulk delete functionality,FEAT-0460,2,feature
+bulk delete functionality,FEAT-0461,2,feature
+bulk delete functionality,FEAT-0464,2,feature
+bulk delete functionality,FEAT-0479,2,feature
+bulk delete functionality,FEAT-0486,2,feature
+bulk delete functionality,FEAT-0493,2,feature
+bulk delete functionality,FEAT-0507,2,feature
+bulk delete functionality,FEAT-0509,2,feature
+bulk delete functionality,FEAT-0602,0,feature
+bulk delete functionality,FEAT-0402,0,feature
+bulk delete functionality,BUG-0075,0,feature
+bulk delete functionality,BUG-0060,0,feature
+bulk delete functionality,TASK-0657,0,feature
+database issues,BUG-0004,1,vague
+database issues,BUG-0007,1,vague
+database issues,BUG-0011,1,vague
+database issues,BUG-0014,1,vague
+database issues,BUG-0015,1,vague
+database issues,BUG-0024,1,vague
+database issues,BUG-0027,1,vague
+database issues,BUG-0034,1,vague
+database issues,BUG-0035,1,vague
+database issues,BUG-0036,1,vague
+database issues,BUG-0038,1,vague
+database issues,BUG-0054,1,vague
+database issues,BUG-0055,1,vague
+database issues,BUG-0059,1,vague
+database issues,BUG-0061,1,vague
+database issues,FEAT-0513,0,vague
+database issues,FEAT-0606,0,vague
+database issues,BUG-0224,0,vague
+database issues,FEAT-0625,0,vague
+database issues,FEAT-0633,0,vague
+add unit tests,TASK-0655,2,task
+add unit tests,TASK-0662,2,task
+add unit tests,TASK-0675,2,task
+add unit tests,TASK-0680,2,task
+add unit tests,TASK-0681,2,task
+add unit tests,TASK-0688,2,task
+add unit tests,TASK-0693,2,task
+add unit tests,TASK-0705,2,task
+add unit tests,TASK-0712,2,task
+add unit tests,TASK-0714,2,task
+add unit tests,TASK-0719,2,task
+add unit tests,TASK-0733,2,task
+add unit tests,TASK-0737,2,task
+add unit tests,TASK-0740,2,task
+add unit tests,TASK-0741,2,task
+add unit tests,BUG-0048,0,task
+add unit tests,TASK-0669,0,task
+add unit tests,BUG-0072,0,task
+add unit tests,FEAT-0480,0,task
+add unit tests,BUG-0232,0,task
+email notifications,FEAT-0401,2,feature
+email notifications,FEAT-0433,2,feature
+email notifications,FEAT-0447,2,feature
+email notifications,FEAT-0472,2,feature
+email notifications,FEAT-0494,2,feature
+email notifications,FEAT-0534,2,feature
+email notifications,FEAT-0552,2,feature
+email notifications,FEAT-0579,2,feature
+email notifications,FEAT-0594,2,feature
+email notifications,FEAT-0602,2,feature
+email notifications,FEAT-0649,2,feature
+email notifications,BUG-0016,1,feature
+email notifications,BUG-0029,1,feature
+email notifications,BUG-0045,1,feature
+email notifications,BUG-0069,1,feature
+email notifications,TASK-0660,0,feature
+email notifications,BUG-0232,0,feature
+email notifications,BUG-0372,0,feature
+email notifications,FEAT-0526,0,feature
+email notifications,BUG-0188,0,feature
+connection refused error,BUG-0005,1,technical
+connection refused error,BUG-0007,1,technical
+connection refused error,BUG-0008,1,technical
+connection refused error,BUG-0011,1,technical
+connection refused error,BUG-0012,1,technical
+connection refused error,BUG-0014,1,technical
+connection refused error,BUG-0015,1,technical
+connection refused error,BUG-0017,1,technical
+connection refused error,BUG-0018,1,technical
+connection refused error,BUG-0021,1,technical
+connection refused error,BUG-0022,1,technical
+connection refused error,BUG-0027,1,technical
+connection refused error,BUG-0029,1,technical
+connection refused error,BUG-0030,1,technical
+connection refused error,BUG-0031,1,technical
+connection refused error,BUG-0196,0,technical
+connection refused error,BUG-0034,0,technical
+connection refused error,BUG-0366,0,technical
+connection refused error,TASK-0757,0,technical
+connection refused error,FEAT-0471,0,technical
+ORM query optimization needed,BUG-0002,1,technical
+ORM query optimization needed,BUG-0007,1,technical
+ORM query optimization needed,BUG-0009,1,technical
+ORM query optimization needed,BUG-0011,1,technical
+ORM query optimization needed,BUG-0015,1,technical
+ORM query optimization needed,BUG-0016,1,technical
+ORM query optimization needed,BUG-0018,1,technical
+ORM query optimization needed,BUG-0027,1,technical
+ORM query optimization needed,BUG-0035,1,technical
+ORM query optimization needed,BUG-0036,1,technical
+ORM query optimization needed,BUG-0042,1,technical
+ORM query optimization needed,BUG-0044,1,technical
+ORM query optimization needed,BUG-0055,1,technical
+ORM query optimization needed,BUG-0066,1,technical
+ORM query optimization needed,BUG-0068,1,technical
+ORM query optimization needed,FEAT-0549,0,technical
+ORM query optimization needed,BUG-0020,0,technical
+ORM query optimization needed,FEAT-0595,0,technical
+ORM query optimization needed,FEAT-0590,0,technical
+ORM query optimization needed,TASK-0763,0,technical
+scheduled reports,BUG-0018,1,feature
+scheduled reports,BUG-0030,1,feature
+scheduled reports,BUG-0136,1,feature
+scheduled reports,BUG-0156,1,feature
+scheduled reports,BUG-0194,1,feature
+scheduled reports,BUG-0208,1,feature
+scheduled reports,BUG-0230,1,feature
+scheduled reports,BUG-0242,1,feature
+scheduled reports,BUG-0264,1,feature
+scheduled reports,BUG-0280,1,feature
+scheduled reports,BUG-0319,1,feature
+scheduled reports,BUG-0339,1,feature
+scheduled reports,FEAT-0406,1,feature
+scheduled reports,FEAT-0412,1,feature
+scheduled reports,FEAT-0414,1,feature
+scheduled reports,TASK-0780,0,feature
+scheduled reports,FEAT-0475,0,feature
+scheduled reports,BUG-0095,0,feature
+scheduled reports,BUG-0084,0,feature
+scheduled reports,BUG-0390,0,feature
+API returns 500 error,BUG-0006,2,specific
+API returns 500 error,BUG-0018,2,specific
+API returns 500 error,BUG-0028,2,specific
+API returns 500 error,BUG-0047,2,specific
+API returns 500 error,BUG-0051,2,specific
+API returns 500 error,BUG-0071,2,specific
+API returns 500 error,BUG-0075,2,specific
+API returns 500 error,BUG-0100,2,specific
+API returns 500 error,BUG-0105,2,specific
+API returns 500 error,BUG-0107,2,specific
+API returns 500 error,BUG-0127,2,specific
+API returns 500 error,BUG-0142,2,specific
+API returns 500 error,BUG-0157,2,specific
+API returns 500 error,BUG-0162,2,specific
+API returns 500 error,BUG-0198,2,specific
+API returns 500 error,BUG-0124,0,specific
+API returns 500 error,BUG-0335,0,specific
+API returns 500 error,FEAT-0589,0,specific
+API returns 500 error,TASK-0782,0,specific
+API returns 500 error,BUG-0257,0,specific
+query performance degradation,BUG-0002,2,specific
+query performance degradation,BUG-0042,2,specific
+query performance degradation,BUG-0044,2,specific
+query performance degradation,BUG-0077,2,specific
+query performance degradation,BUG-0111,2,specific
+query performance degradation,BUG-0112,2,specific
+query performance degradation,BUG-0114,2,specific
+query performance degradation,BUG-0126,2,specific
+query performance degradation,BUG-0134,2,specific
+query performance degradation,BUG-0160,2,specific
+query performance degradation,BUG-0245,2,specific
+query performance degradation,BUG-0257,2,specific
+query performance degradation,BUG-0258,2,specific
+query performance degradation,BUG-0272,2,specific
+query performance degradation,BUG-0282,2,specific
+query performance degradation,BUG-0369,0,specific
+query performance degradation,BUG-0385,0,specific
+query performance degradation,FEAT-0527,0,specific
+query performance degradation,BUG-0391,0,specific
+query performance degradation,FEAT-0481,0,specific
+memory consumption over 1GB,BUG-0074,1,technical
+memory consumption over 1GB,BUG-0095,1,technical
+memory consumption over 1GB,BUG-0150,1,technical
+memory consumption over 1GB,BUG-0185,1,technical
+memory consumption over 1GB,BUG-0191,1,technical
+memory consumption over 1GB,BUG-0201,1,technical
+memory consumption over 1GB,BUG-0205,1,technical
+memory consumption over 1GB,BUG-0212,1,technical
+memory consumption over 1GB,BUG-0262,1,technical
+memory consumption over 1GB,BUG-0274,1,technical
+memory consumption over 1GB,BUG-0301,1,technical
+memory consumption over 1GB,BUG-0310,1,technical
+memory consumption over 1GB,BUG-0347,1,technical
+memory consumption over 1GB,BUG-0371,1,technical
+memory consumption over 1GB,BUG-0375,1,technical
+memory consumption over 1GB,BUG-0099,0,technical
+memory consumption over 1GB,TASK-0674,0,technical
+memory consumption over 1GB,FEAT-0574,0,technical
+memory consumption over 1GB,TASK-0780,0,technical
+memory consumption over 1GB,FEAT-0612,0,technical
+JSON parsing error,BUG-0008,2,specific
+JSON parsing error,BUG-0030,2,specific
+JSON parsing error,BUG-0050,2,specific
+JSON parsing error,BUG-0056,2,specific
+JSON parsing error,BUG-0083,2,specific
+JSON parsing error,BUG-0087,2,specific
+JSON parsing error,BUG-0092,2,specific
+JSON parsing error,BUG-0181,2,specific
+JSON parsing error,BUG-0214,2,specific
+JSON parsing error,BUG-0228,2,specific
+JSON parsing error,BUG-0246,2,specific
+JSON parsing error,BUG-0266,2,specific
+JSON parsing error,BUG-0332,2,specific
+JSON parsing error,BUG-0339,2,specific
+JSON parsing error,BUG-0341,2,specific
+JSON parsing error,BUG-0152,0,specific
+JSON parsing error,BUG-0239,0,specific
+JSON parsing error,BUG-0370,0,specific
+JSON parsing error,BUG-0373,0,specific
+session timeout not working,BUG-0020,2,specific
+session timeout not working,BUG-0033,2,specific
+session timeout not working,BUG-0038,2,specific
+session timeout not working,BUG-0041,2,specific
+session timeout not working,BUG-0067,2,specific
+session timeout not working,BUG-0101,2,specific
+session timeout not working,BUG-0119,2,specific
+session timeout not working,BUG-0145,2,specific
+session timeout not working,BUG-0155,2,specific
+session timeout not working,BUG-0203,2,specific
+session timeout not working,BUG-0244,2,specific
+session timeout not working,BUG-0247,2,specific
+session timeout not working,BUG-0302,2,specific
+session timeout not working,BUG-0376,2,specific
+session timeout not working,BUG-0002,1,specific
+session timeout not working,BUG-0195,0,specific
+session timeout not working,FEAT-0556,0,specific
+session timeout not working,BUG-0178,0,specific
+session timeout not working,BUG-0016,0,specific
+session timeout not working,BUG-0343,0,specific
+setup monitoring,TASK-0659,2,task
+setup monitoring,TASK-0663,2,task
+setup monitoring,TASK-0668,2,task
+setup monitoring,TASK-0679,2,task
+setup monitoring,TASK-0683,2,task
+setup monitoring,TASK-0692,2,task
+setup monitoring,TASK-0696,2,task
+setup monitoring,TASK-0711,2,task
+setup monitoring,TASK-0713,2,task
+setup monitoring,TASK-0717,2,task
+setup monitoring,TASK-0722,2,task
+setup monitoring,TASK-0728,2,task
+setup monitoring,TASK-0732,2,task
+setup monitoring,TASK-0739,2,task
+setup monitoring,TASK-0742,2,task
+setup monitoring,BUG-0308,0,task
+setup monitoring,BUG-0197,0,task
+setup monitoring,BUG-0110,0,task
+setup monitoring,FEAT-0513,0,task
+setup monitoring,FEAT-0594,0,task
+undo functionality,FEAT-0407,1,feature
+undo functionality,FEAT-0419,1,feature
+undo functionality,FEAT-0431,1,feature
+undo functionality,FEAT-0444,1,feature
+undo functionality,FEAT-0448,1,feature
+undo functionality,FEAT-0451,1,feature
+undo functionality,FEAT-0456,1,feature
+undo functionality,FEAT-0460,1,feature
+undo functionality,FEAT-0461,1,feature
+undo functionality,FEAT-0464,1,feature
+undo functionality,FEAT-0479,1,feature
+undo functionality,FEAT-0486,1,feature
+undo functionality,FEAT-0493,1,feature
+undo functionality,FEAT-0507,1,feature
+undo functionality,FEAT-0509,1,feature
+undo functionality,BUG-0180,0,feature
+undo functionality,BUG-0248,0,feature
+undo functionality,BUG-0315,0,feature
+undo functionality,BUG-0253,0,feature
+undo functionality,BUG-0349,0,feature
+report generation,TASK-0652,2,vague
+report generation,TASK-0670,2,vague
+report generation,TASK-0695,2,vague
+report generation,TASK-0726,2,vague
+report generation,TASK-0734,2,vague
+report generation,TASK-0736,2,vague
+report generation,BUG-0018,1,vague
+report generation,BUG-0024,1,vague
+report generation,BUG-0030,1,vague
+report generation,BUG-0043,1,vague
+report generation,BUG-0052,1,vague
+report generation,BUG-0060,1,vague
+report generation,BUG-0065,1,vague
+report generation,BUG-0081,1,vague
+report generation,BUG-0089,1,vague
+report generation,FEAT-0575,0,vague
+report generation,BUG-0228,0,vague
+report generation,FEAT-0458,0,vague
+report generation,BUG-0101,0,vague
+report generation,BUG-0388,0,vague
+two factor authentication,FEAT-0403,2,feature
+two factor authentication,FEAT-0435,2,feature
+two factor authentication,FEAT-0469,2,feature
+two factor authentication,FEAT-0518,2,feature
+two factor authentication,FEAT-0585,2,feature
+two factor authentication,FEAT-0637,2,feature
+two factor authentication,TASK-0698,2,feature
+two factor authentication,BUG-0019,1,feature
+two factor authentication,BUG-0033,1,feature
+two factor authentication,BUG-0043,1,feature
+two factor authentication,BUG-0066,1,feature
+two factor authentication,BUG-0071,1,feature
+two factor authentication,BUG-0072,1,feature
+two factor authentication,BUG-0074,1,feature
+two factor authentication,BUG-0076,1,feature
+two factor authentication,TASK-0711,0,feature
+two factor authentication,FEAT-0587,0,feature
+two factor authentication,BUG-0268,0,feature
+two factor authentication,TASK-0785,0,feature
+performance slow,BUG-0002,1,vague
+performance slow,BUG-0004,1,vague
+performance slow,BUG-0007,1,vague
+performance slow,BUG-0009,1,vague
+performance slow,BUG-0011,1,vague
+performance slow,BUG-0013,1,vague
+performance slow,BUG-0014,1,vague
+performance slow,BUG-0015,1,vague
+performance slow,BUG-0016,1,vague
+performance slow,BUG-0018,1,vague
+performance slow,BUG-0024,1,vague
+performance slow,BUG-0027,1,vague
+performance slow,BUG-0035,1,vague
+performance slow,BUG-0036,1,vague
+performance slow,BUG-0038,1,vague
+performance slow,FEAT-0635,0,vague
+performance slow,TASK-0657,0,vague
+performance slow,FEAT-0627,0,vague
+performance slow,BUG-0391,0,vague
+performance slow,FEAT-0628,0,vague
+mobile responsive design,BUG-0094,2,feature
+mobile responsive design,BUG-0210,2,feature
+mobile responsive design,BUG-0211,2,feature
+mobile responsive design,BUG-0335,2,feature
+mobile responsive design,BUG-0356,2,feature
+mobile responsive design,BUG-0002,1,feature
+mobile responsive design,BUG-0012,1,feature
+mobile responsive design,BUG-0019,1,feature
+mobile responsive design,BUG-0054,1,feature
+mobile responsive design,BUG-0096,1,feature
+mobile responsive design,BUG-0109,1,feature
+mobile responsive design,BUG-0113,1,feature
+mobile responsive design,BUG-0118,1,feature
+mobile responsive design,BUG-0123,1,feature
+mobile responsive design,BUG-0125,1,feature
+mobile responsive design,TASK-0671,0,feature
+mobile responsive design,TASK-0723,0,feature
+mobile responsive design,BUG-0027,0,feature
+mobile responsive design,TASK-0746,0,feature
+mobile responsive design,TASK-0736,0,feature
+dashboard with metrics,BUG-0005,1,feature
+dashboard with metrics,BUG-0012,1,feature
+dashboard with metrics,BUG-0017,1,feature
+dashboard with metrics,BUG-0021,1,feature
+dashboard with metrics,BUG-0022,1,feature
+dashboard with metrics,BUG-0058,1,feature
+dashboard with metrics,BUG-0064,1,feature
+dashboard with metrics,BUG-0079,1,feature
+dashboard with metrics,BUG-0106,1,feature
+dashboard with metrics,BUG-0130,1,feature
+dashboard with metrics,BUG-0135,1,feature
+dashboard with metrics,BUG-0172,1,feature
+dashboard with metrics,BUG-0173,1,feature
+dashboard with metrics,BUG-0178,1,feature
+dashboard with metrics,BUG-0179,1,feature
+dashboard with metrics,BUG-0196,0,feature
+dashboard with metrics,FEAT-0421,0,feature
+dashboard with metrics,BUG-0276,0,feature
+dashboard with metrics,BUG-0163,0,feature
+dashboard with metrics,BUG-0132,0,feature
+api errors,BUG-0006,1,vague
+api errors,BUG-0018,1,vague
+api errors,BUG-0028,1,vague
+api errors,BUG-0047,1,vague
+api errors,BUG-0051,1,vague
+api errors,BUG-0071,1,vague
+api errors,BUG-0075,1,vague
+api errors,BUG-0095,1,vague
+api errors,BUG-0100,1,vague
+api errors,BUG-0105,1,vague
+api errors,BUG-0107,1,vague
+api errors,BUG-0127,1,vague
+api errors,BUG-0142,1,vague
+api errors,BUG-0157,1,vague
+api errors,BUG-0162,1,vague
+api errors,BUG-0199,0,vague
+api errors,TASK-0696,0,vague
+api errors,BUG-0137,0,vague
+api errors,FEAT-0415,0,vague
+api errors,TASK-0678,0,vague
+unicode character encoding issue,BUG-0017,2,technical
+unicode character encoding issue,BUG-0130,2,technical
+unicode character encoding issue,BUG-0278,2,technical
+unicode character encoding issue,BUG-0007,1,technical
+unicode character encoding issue,BUG-0008,1,technical
+unicode character encoding issue,BUG-0009,1,technical
+unicode character encoding issue,BUG-0010,1,technical
+unicode character encoding issue,BUG-0015,1,technical
+unicode character encoding issue,BUG-0019,1,technical
+unicode character encoding issue,BUG-0027,1,technical
+unicode character encoding issue,BUG-0032,1,technical
+unicode character encoding issue,BUG-0036,1,technical
+unicode character encoding issue,BUG-0039,1,technical
+unicode character encoding issue,BUG-0040,1,technical
+unicode character encoding issue,BUG-0050,1,technical
+unicode character encoding issue,FEAT-0521,0,technical
+unicode character encoding issue,TASK-0786,0,technical
+unicode character encoding issue,FEAT-0476,0,technical
+unicode character encoding issue,TASK-0701,0,technical
+unicode character encoding issue,FEAT-0535,0,technical
+optimize database queries,TASK-0652,2,task
+optimize database queries,TASK-0653,2,task
+optimize database queries,TASK-0670,2,task
+optimize database queries,TASK-0678,2,task
+optimize database queries,TASK-0682,2,task
+optimize database queries,TASK-0686,2,task
+optimize database queries,TASK-0687,2,task
+optimize database queries,TASK-0695,2,task
+optimize database queries,TASK-0703,2,task
+optimize database queries,TASK-0704,2,task
+optimize database queries,TASK-0710,2,task
+optimize database queries,TASK-0715,2,task
+optimize database queries,TASK-0720,2,task
+optimize database queries,TASK-0726,2,task
+optimize database queries,TASK-0734,2,task
+optimize database queries,BUG-0290,0,task
+optimize database queries,BUG-0111,0,task
+optimize database queries,FEAT-0515,0,task
+optimize database queries,BUG-0212,0,task
+optimize database queries,FEAT-0500,0,task
+race condition in concurrent requests,BUG-0008,1,technical
+race condition in concurrent requests,BUG-0009,1,technical
+race condition in concurrent requests,BUG-0010,1,technical
+race condition in concurrent requests,BUG-0011,1,technical
+race condition in concurrent requests,BUG-0012,1,technical
+race condition in concurrent requests,BUG-0013,1,technical
+race condition in concurrent requests,BUG-0017,1,technical
+race condition in concurrent requests,BUG-0021,1,technical
+race condition in concurrent requests,BUG-0026,1,technical
+race condition in concurrent requests,BUG-0030,1,technical
+race condition in concurrent requests,BUG-0039,1,technical
+race condition in concurrent requests,BUG-0040,1,technical
+race condition in concurrent requests,BUG-0043,1,technical
+race condition in concurrent requests,BUG-0048,1,technical
+race condition in concurrent requests,BUG-0049,1,technical
+race condition in concurrent requests,BUG-0047,0,technical
+race condition in concurrent requests,TASK-0730,0,technical
+race condition in concurrent requests,TASK-0746,0,technical
+race condition in concurrent requests,TASK-0782,0,technical
+race condition in concurrent requests,BUG-0307,0,technical
+JSON parsing error,BUG-0008,2,specific
+JSON parsing error,BUG-0030,2,specific
+JSON parsing error,BUG-0050,2,specific
+JSON parsing error,BUG-0056,2,specific
+JSON parsing error,BUG-0083,2,specific
+JSON parsing error,BUG-0087,2,specific
+JSON parsing error,BUG-0092,2,specific
+JSON parsing error,BUG-0181,2,specific
+JSON parsing error,BUG-0214,2,specific
+JSON parsing error,BUG-0228,2,specific
+JSON parsing error,BUG-0246,2,specific
+JSON parsing error,BUG-0266,2,specific
+JSON parsing error,BUG-0332,2,specific
+JSON parsing error,BUG-0339,2,specific
+JSON parsing error,BUG-0341,2,specific
+JSON parsing error,BUG-0093,0,specific
+JSON parsing error,BUG-0250,0,specific
+JSON parsing error,TASK-0759,0,specific
+JSON parsing error,BUG-0142,0,specific
+JSON parsing error,BUG-0164,0,specific
+API returns 500 error,BUG-0006,2,specific
+API returns 500 error,BUG-0018,2,specific
+API returns 500 error,BUG-0028,2,specific
+API returns 500 error,BUG-0047,2,specific
+API returns 500 error,BUG-0051,2,specific
+API returns 500 error,BUG-0071,2,specific
+API returns 500 error,BUG-0075,2,specific
+API returns 500 error,BUG-0100,2,specific
+API returns 500 error,BUG-0105,2,specific
+API returns 500 error,BUG-0107,2,specific
+API returns 500 error,BUG-0127,2,specific
+API returns 500 error,BUG-0142,2,specific
+API returns 500 error,BUG-0157,2,specific
+API returns 500 error,BUG-0162,2,specific
+API returns 500 error,BUG-0198,2,specific
+API returns 500 error,BUG-0132,0,specific
+API returns 500 error,FEAT-0608,0,specific
+API returns 500 error,BUG-0284,0,specific
+API returns 500 error,BUG-0294,0,specific
+API returns 500 error,FEAT-0644,0,specific
+constraint violation in database,BUG-0004,1,technical
+constraint violation in database,BUG-0007,1,technical
+constraint violation in database,BUG-0008,1,technical
+constraint violation in database,BUG-0009,1,technical
+constraint violation in database,BUG-0010,1,technical
+constraint violation in database,BUG-0011,1,technical
+constraint violation in database,BUG-0012,1,technical
+constraint violation in database,BUG-0014,1,technical
+constraint violation in database,BUG-0015,1,technical
+constraint violation in database,BUG-0017,1,technical
+constraint violation in database,BUG-0021,1,technical
+constraint violation in database,BUG-0024,1,technical
+constraint violation in database,BUG-0027,1,technical
+constraint violation in database,BUG-0030,1,technical
+constraint violation in database,BUG-0034,1,technical
+constraint violation in database,TASK-0786,0,technical
+constraint violation in database,TASK-0724,0,technical
+constraint violation in database,BUG-0144,0,technical
+constraint violation in database,BUG-0142,0,technical
+constraint violation in database,BUG-0198,0,technical
+SQL injection vulnerability,FEAT-0611,0,technical
+SQL injection vulnerability,BUG-0271,0,technical
+SQL injection vulnerability,BUG-0289,0,technical
+SQL injection vulnerability,BUG-0295,0,technical
+SQL injection vulnerability,BUG-0339,0,technical
+timeout,BUG-0007,2,vague
+timeout,BUG-0008,2,vague
+timeout,BUG-0015,2,vague
+timeout,BUG-0020,2,vague
+timeout,BUG-0027,2,vague
+timeout,BUG-0033,2,vague
+timeout,BUG-0036,2,vague
+timeout,BUG-0038,2,vague
+timeout,BUG-0041,2,vague
+timeout,BUG-0050,2,vague
+timeout,BUG-0055,2,vague
+timeout,BUG-0067,2,vague
+timeout,BUG-0068,2,vague
+timeout,BUG-0072,2,vague
+timeout,BUG-0076,2,vague
+timeout,TASK-0754,0,vague
+timeout,TASK-0775,0,vague
+timeout,BUG-0305,0,vague
+timeout,BUG-0017,0,vague
+timeout,BUG-0083,0,vague
+integration problems,BUG-0003,1,vague
+integration problems,BUG-0004,1,vague
+integration problems,BUG-0027,1,vague
+integration problems,BUG-0032,1,vague
+integration problems,BUG-0051,1,vague
+integration problems,BUG-0055,1,vague
+integration problems,BUG-0057,1,vague
+integration problems,BUG-0063,1,vague
+integration problems,BUG-0073,1,vague
+integration problems,BUG-0081,1,vague
+integration problems,BUG-0093,1,vague
+integration problems,BUG-0108,1,vague
+integration problems,BUG-0110,1,vague
+integration problems,BUG-0114,1,vague
+integration problems,BUG-0117,1,vague
+integration problems,FEAT-0622,0,vague
+integration problems,FEAT-0473,0,vague
+integration problems,BUG-0058,0,vague
+integration problems,FEAT-0408,0,vague
+undo functionality,FEAT-0407,1,feature
+undo functionality,FEAT-0419,1,feature
+undo functionality,FEAT-0431,1,feature
+undo functionality,FEAT-0444,1,feature
+undo functionality,FEAT-0448,1,feature
+undo functionality,FEAT-0451,1,feature
+undo functionality,FEAT-0456,1,feature
+undo functionality,FEAT-0460,1,feature
+undo functionality,FEAT-0461,1,feature
+undo functionality,FEAT-0464,1,feature
+undo functionality,FEAT-0479,1,feature
+undo functionality,FEAT-0486,1,feature
+undo functionality,FEAT-0493,1,feature
+undo functionality,FEAT-0507,1,feature
+undo functionality,FEAT-0509,1,feature
+undo functionality,FEAT-0542,0,feature
+undo functionality,FEAT-0489,0,feature
+undo functionality,FEAT-0601,0,feature
+undo functionality,FEAT-0519,0,feature
+undo functionality,TASK-0718,0,feature
+security issues,BUG-0002,1,vague
+security issues,BUG-0017,1,vague
+security issues,BUG-0020,1,vague
+security issues,BUG-0021,1,vague
+security issues,BUG-0022,1,vague
+security issues,BUG-0023,1,vague
+security issues,BUG-0025,1,vague
+security issues,BUG-0033,1,vague
+security issues,BUG-0038,1,vague
+security issues,BUG-0041,1,vague
+security issues,BUG-0043,1,vague
+security issues,BUG-0047,1,vague
+security issues,BUG-0059,1,vague
+security issues,BUG-0060,1,vague
+security issues,BUG-0067,1,vague
+security issues,BUG-0127,0,vague
+security issues,BUG-0319,0,vague
+security issues,TASK-0726,0,vague
+security issues,FEAT-0572,0,vague
+security issues,FEAT-0516,0,vague
+performance slow,BUG-0002,1,vague
+performance slow,BUG-0004,1,vague
+performance slow,BUG-0007,1,vague
+performance slow,BUG-0009,1,vague
+performance slow,BUG-0011,1,vague
+performance slow,BUG-0013,1,vague
+performance slow,BUG-0014,1,vague
+performance slow,BUG-0015,1,vague
+performance slow,BUG-0016,1,vague
+performance slow,BUG-0018,1,vague
+performance slow,BUG-0024,1,vague
+performance slow,BUG-0027,1,vague
+performance slow,BUG-0035,1,vague
+performance slow,BUG-0036,1,vague
+performance slow,BUG-0038,1,vague
+performance slow,BUG-0346,0,vague
+performance slow,BUG-0290,0,vague
+performance slow,BUG-0340,0,vague
+performance slow,BUG-0240,0,vague
+performance slow,FEAT-0640,0,vague
+login problems,BUG-0012,1,vague
+login problems,BUG-0017,1,vague
+login problems,BUG-0021,1,vague
+login problems,BUG-0064,1,vague
+login problems,BUG-0106,1,vague
+login problems,BUG-0130,1,vague
+login problems,BUG-0173,1,vague
+login problems,BUG-0178,1,vague
+login problems,BUG-0179,1,vague
+login problems,BUG-0183,1,vague
+login problems,BUG-0190,1,vague
+login problems,BUG-0196,1,vague
+login problems,BUG-0204,1,vague
+login problems,BUG-0217,1,vague
+login problems,BUG-0223,1,vague
+login problems,BUG-0292,0,vague
+login problems,BUG-0098,0,vague
+login problems,FEAT-0602,0,vague
+login problems,TASK-0776,0,vague
+login problems,BUG-0238,0,vague
+query performance degradation,BUG-0002,2,specific
+query performance degradation,BUG-0042,2,specific
+query performance degradation,BUG-0044,2,specific
+query performance degradation,BUG-0077,2,specific
+query performance degradation,BUG-0111,2,specific
+query performance degradation,BUG-0112,2,specific
+query performance degradation,BUG-0114,2,specific
+query performance degradation,BUG-0126,2,specific
+query performance degradation,BUG-0134,2,specific
+query performance degradation,BUG-0160,2,specific
+query performance degradation,BUG-0245,2,specific
+query performance degradation,BUG-0257,2,specific
+query performance degradation,BUG-0258,2,specific
+query performance degradation,BUG-0272,2,specific
+query performance degradation,BUG-0282,2,specific
+query performance degradation,FEAT-0507,0,specific
+query performance degradation,TASK-0769,0,specific
+query performance degradation,FEAT-0416,0,specific
+query performance degradation,FEAT-0513,0,specific
+query performance degradation,FEAT-0480,0,specific
+report generation,TASK-0652,2,vague
+report generation,TASK-0670,2,vague
+report generation,TASK-0695,2,vague
+report generation,TASK-0726,2,vague
+report generation,TASK-0734,2,vague
+report generation,TASK-0736,2,vague
+report generation,BUG-0018,1,vague
+report generation,BUG-0024,1,vague
+report generation,BUG-0030,1,vague
+report generation,BUG-0043,1,vague
+report generation,BUG-0052,1,vague
+report generation,BUG-0060,1,vague
+report generation,BUG-0065,1,vague
+report generation,BUG-0081,1,vague
+report generation,BUG-0089,1,vague
+report generation,BUG-0100,0,vague
+report generation,BUG-0248,0,vague
+report generation,BUG-0297,0,vague
+report generation,BUG-0312,0,vague
+report generation,FEAT-0562,0,vague
+notification system,BUG-0026,1,vague
+notification system,BUG-0034,1,vague
+notification system,BUG-0038,1,vague
+notification system,BUG-0057,1,vague
+notification system,BUG-0058,1,vague
+notification system,BUG-0101,1,vague
+notification system,BUG-0124,1,vague
+notification system,BUG-0150,1,vague
+notification system,BUG-0152,1,vague
+notification system,BUG-0169,1,vague
+notification system,BUG-0201,1,vague
+notification system,BUG-0203,1,vague
+notification system,BUG-0211,1,vague
+notification system,BUG-0212,1,vague
+notification system,BUG-0215,1,vague
+notification system,BUG-0312,0,vague
+notification system,FEAT-0618,0,vague
+notification system,FEAT-0627,0,vague
+notification system,TASK-0703,0,vague
+memory leak in backend,BUG-0074,2,specific
+memory leak in backend,BUG-0095,2,specific
+memory leak in backend,BUG-0150,2,specific
+memory leak in backend,BUG-0185,2,specific
+memory leak in backend,BUG-0191,2,specific
+memory leak in backend,BUG-0201,2,specific
+memory leak in backend,BUG-0205,2,specific
+memory leak in backend,BUG-0212,2,specific
+memory leak in backend,BUG-0262,2,specific
+memory leak in backend,BUG-0274,2,specific
+memory leak in backend,BUG-0301,2,specific
+memory leak in backend,BUG-0310,2,specific
+memory leak in backend,BUG-0347,2,specific
+memory leak in backend,BUG-0371,2,specific
+memory leak in backend,BUG-0375,2,specific
+memory leak in backend,FEAT-0531,0,specific
+memory leak in backend,BUG-0001,0,specific
+memory leak in backend,FEAT-0559,0,specific
+memory leak in backend,BUG-0384,0,specific
+memory leak in backend,TASK-0682,0,specific
+500 internal server error on /api/users,BUG-0006,2,technical
+500 internal server error on /api/users,BUG-0007,2,technical
+500 internal server error on /api/users,BUG-0013,2,technical
+500 internal server error on /api/users,BUG-0015,2,technical
+500 internal server error on /api/users,BUG-0027,2,technical
+500 internal server error on /api/users,BUG-0036,2,technical
+500 internal server error on /api/users,BUG-0055,2,technical
+500 internal server error on /api/users,BUG-0068,2,technical
+500 internal server error on /api/users,BUG-0072,2,technical
+500 internal server error on /api/users,BUG-0082,2,technical
+500 internal server error on /api/users,BUG-0109,2,technical
+500 internal server error on /api/users,BUG-0118,2,technical
+500 internal server error on /api/users,BUG-0122,2,technical
+500 internal server error on /api/users,BUG-0138,2,technical
+500 internal server error on /api/users,BUG-0166,2,technical
+500 internal server error on /api/users,FEAT-0524,0,technical
+500 internal server error on /api/users,TASK-0682,0,technical
+500 internal server error on /api/users,BUG-0345,0,technical
+500 internal server error on /api/users,BUG-0394,0,technical
+500 internal server error on /api/users,BUG-0108,0,technical

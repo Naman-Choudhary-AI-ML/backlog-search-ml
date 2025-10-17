@@ -1,0 +1,11 @@
+# Instructions to Run the Model and UI
+
+# If you are using a Windows machine:
+- Follow the steps provided in the file `how_to_run_on_windows.txt`
+- Open the Command Prompt (CMD)
+- Type and execute: run.bat
+
+# If you are using a Mac:
+- Follow the steps provided in the file `how_to_run_on_mac.txt`
+- Open the Terminal (CMD equivalent on Mac)
+- Type and execute: run.bat
