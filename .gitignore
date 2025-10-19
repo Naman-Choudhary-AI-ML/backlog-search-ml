@@ -90,3 +90,11 @@ Desktop.ini
 *.temp
 tmp/
 temp/
+
+# Local learning materials (not for GitHub)
+learning_materials/
+RESUME_BULLETS.md
+*_SUMMARY*.md
+FINAL_*
+.claude/
+diagnostic_evaluation_bug.py
