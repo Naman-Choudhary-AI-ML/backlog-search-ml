@@ -182,8 +182,8 @@ def run_grid_search():
 
     # Load data
     print("\n1. Loading data...")
-    backlog_path = Path("evaluation/synthetic_data/synthetic_backlog.csv")
-    test_set_path = Path("evaluation/test_sets/test_set_compact.csv")
+    backlog_path = Path("evaluation/synthetic_data/synthetic_backlog_from_queries.csv")
+    test_set_path = Path("evaluation/test_sets/test_set_llm_compact.csv")
 
     backlog_df = pd.read_csv(backlog_path)
     queries_data = load_test_set(test_set_path)

@@ -1,8 +1,8 @@
 # SpotLight: Intelligent Search for Software Backlogs
 
-**Production-grade hybrid retrieval system combining BM25 keyword search and semantic embeddings, achieving 3.9% NDCG improvement through empirically-validated fusion weights.**
+**Production-grade hybrid retrieval system combining BM25 keyword search and semantic embeddings, achieving 3.7% NDCG improvement through empirically-validated fusion weights.**
 
-Built for enterprise software backlog search | Evaluated on 800 documents, 100+ queries, 2,911 labeled pairs
+Built for enterprise software backlog search | Evaluated on 2,216 documents, 50 diverse queries, 2,216 LLM-generated relevance labels
 
 ---
 
@@ -27,11 +27,11 @@ Hybrid retrieval system that balances keyword precision (BM25) with semantic und
 
 | System | NDCG@10 | MAP | Precision@10 | Improvement |
 |--------|---------|-----|--------------|-------------|
-| BM25 (keyword only) | 0.4048 | 0.4605 | 0.4029 | baseline |
-| Semantic (embedding only) | 0.3921 | 0.4332 | 0.3797 | -3.1% |
-| **Hybrid (60/40 fusion)** | **0.4207** | **0.4708** | **0.4207** | **+3.9%** |
+| BM25 (keyword only) | 0.6261 | 0.6407 | 0.6180 | baseline |
+| Semantic (embedding only) | 0.5690 | 0.5692 | 0.5760 | -9.1% |
+| **Hybrid (50/50 fusion)** | **0.6490** | **0.6421** | **0.6440** | **+3.7%** |
 
-**Key Finding:** 60% BM25 + 40% Semantic fusion discovered through 30-configuration grid search.
+**Key Finding:** Hybrid fusion balances BM25's precision on technical queries with semantic search's recall on vague queries.
 
 ### Advanced Techniques Evaluated
 
@@ -98,10 +98,39 @@ User Query: "memory leak"
 
 ### Evaluation Framework
 
-- **Test Set**: 100 queries, 2,911 query-document relevance pairs
+- **Test Set**: 50 unique queries, 2,216 query-document relevance pairs
+- **Query Types**: Specific (10), Technical (10), Task (10), Feature (10), Vague (10)
 - **Metrics**: NDCG@10 (primary), MAP, MRR, Precision@k, Recall@k
 - **Relevance Labels**: 0 (irrelevant), 1 (relevant), 2 (highly relevant)
-- **Systematic Testing**: 7 experiments, 30 hyperparameter configurations
+- **Data Quality**: GPT-4o-generated synthetic bugs with controlled relevance distribution (33% / 31% / 36%)
+
+### Synthetic Data Generation Methodology
+
+**Challenge:** Creating high-quality test data for information retrieval evaluation is expensive and time-consuming. Manual labeling of thousands of query-document pairs is impractical.
+
+**Solution:** LLM-assisted synthetic data generation using GPT-4o with carefully engineered prompts:
+
+1. **Query-First Generation**: For each of 50 diverse queries, generate 45 bug reports with controlled relevance
+   - 15 irrelevant bugs (relevance=0)
+   - 15 somewhat relevant bugs (relevance=1)
+   - 15 highly relevant bugs (relevance=2)
+
+2. **Prompt Engineering**: Explicit examples and checklists ensure GPT-4o follows instructions:
+   ```
+   Query: "NullPointerException in authentication"
+   - Irrelevant: "Dashboard chart colors incorrect", "Email notification delay"
+   - Relevant: "Login slow performance", "Session timeout too short"
+   - Highly Relevant: "NPE when authenticating user", "NPE in AuthService.validate()"
+   ```
+
+3. **Quality Control**:
+   - Accept variable bug counts (30-50 per query) to avoid artificial padding
+   - Retry logic for poor relevance distributions (minimum 10 bugs per level)
+   - Manual spot-checking of generated data quality
+
+4. **Cost Efficiency**: Total generation cost ~$3-5 using GPT-4o (vs. $40-50 for GPT-4)
+
+**Result**: 2,216 labeled pairs with realistic bug reports and balanced relevance distribution, enabling rigorous evaluation without expensive manual labeling.
 
 ### Critical Bug Discovery & Fix
 
@@ -126,9 +155,13 @@ User Query: "memory leak"
 │   ├── metrics/
 │   │   └── ranking_metrics.py         # NDCG, MAP, MRR (CORRECTED)
 │   ├── synthetic_data/
-│   │   └── synthetic_backlog.csv      # 800 synthetic bug reports
+│   │   ├── generate_synthetic_data_llm.py       # GPT-4o synthetic bug generation
+│   │   ├── generate_test_set_with_bugs.py       # Query-first test set generation
+│   │   └── synthetic_backlog_from_queries.csv   # 2,216 LLM-generated bugs
 │   └── test_sets/
-│       └── test_set_compact.csv       # 100 queries, 2,911 labels
+│       ├── test_queries_unique_50.csv           # 50 unique diverse queries
+│       ├── test_set_llm_compact.csv             # 50 queries, 2,216 labels
+│       └── test_set_llm_full.csv                # Full bug details
 │
 ├── experiments/
 │   ├── hyperparameter_tuning/
@@ -198,9 +231,9 @@ Cross-encoder paradox: Precision@10 improved (+1.77%) while NDCG decreased (-0.6
 - Scalability: Tested up to 50K documents (FAISS essential)
 
 **Evaluation Rigor:**
-- 100+ test queries across 5 query types
-- 2,911 manually-labeled relevance judgments
-- Statistical validation of improvements
+- 50 unique test queries across 5 query types (specific, technical, task, feature, vague)
+- 2,216 LLM-generated relevance judgments with controlled quality
+- Balanced query type distribution (10 queries per type)
 - Comprehensive error analysis by query type
 
 ---
@@ -221,17 +254,17 @@ from evaluation.evaluate_baseline import build_search_system
 
 # Load synthetic backlog
 import pandas as pd
-backlog_df = pd.read_csv("evaluation/synthetic_data/synthetic_backlog.csv")
+backlog_df = pd.read_csv("evaluation/synthetic_data/synthetic_backlog_from_queries.csv")
 
-# Build hybrid search (60/40 optimal)
+# Build hybrid search (50/50)
 search_system = build_search_system(backlog_df)
 
 # Search
 results = search_hybrid(
     query="memory leak in dashboard",
     search_system=search_system,
-    bm25_weight=0.6,  # Optimal from grid search
-    semantic_weight=0.4,
+    bm25_weight=0.5,
+    semantic_weight=0.5,
     top_k=10
 )
 ```
@@ -258,12 +291,14 @@ python evaluation/error_analysis.py
 All experiments fully reproducible with provided scripts:
 
 1. **Baseline Evaluation** (`evaluation/evaluate_baseline.py`)
-   - BM25, Semantic, Hybrid (50/50) on 100 queries
+   - BM25, Semantic, Hybrid (50/50) on 50 diverse queries
    - Results: `evaluation/results/baseline_results.json`
+   - NDCG@10: BM25=0.6261, Semantic=0.5690, Hybrid=0.6490
 
-2. **Hyperparameter Tuning** (`experiments/hyperparameter_tuning/grid_search.py`)
-   - 30 configurations (fusion weights, BM25 params, pooling)
-   - Optimal: 60/40 BM25/Semantic, NDCG@10 = 0.4207
+2. **LLM Synthetic Data Generation** (`evaluation/synthetic_data/generate_test_set_with_bugs.py`)
+   - 50 queries × 45 bugs with controlled relevance distribution
+   - GPT-4o with prompt engineering for quality
+   - Cost: ~$3-5 total
 
 3. **Cross-Encoder Reranking** (`experiments/advanced_retrieval/cross_encoder/reranking.py`)
    - Two-stage retrieval (hybrid → cross-encoder)

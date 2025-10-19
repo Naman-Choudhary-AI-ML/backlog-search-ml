@@ -1,0 +1,101 @@
+query,query_type
+IndexOutOfBoundsException in ProductService.getProductsByCategory(),specific
+something's off with the site,vague
+enable multi-language support,feature
+optimize database query performance,task
+NullPointerException in user authentication module,technical
+TypeError in payment processing module when handling invalid credit card input,specific
+something stopped working,vague
+add multi-language support,feature
+optimize database query performance,task
+NullPointerException in user authentication service,technical
+ConcurrentModificationException in order processing service during bulk updates,specific
+Something's broken on the site.,vague
+implement multi-language support,feature
+optimize database queries for performance,task
+NullPointerException in user authentication service,technical
+TypeError when updating user profile in React app,specific
+something's broken,vague
+implement multi-language support,feature
+optimize database query performance,task
+NullPointerException in user authentication module,technical
+TypeError when parsing JSON response in fetchData function,specific
+something's not right,vague
+integrate social media sharing options,feature
+optimize database queries,task
+NullReferenceException in UserController during authentication process,technical
+Race condition in order processing during high load scenario,specific
+something's gone wrong,vague
+enable multi-language support,feature
+optimize database query performance,task
+NullPointerException in user authentication module,technical
+IndexOutOfBoundsException in ArrayList processing user input,specific
+something's broken,vague
+implement user profile customization options,feature
+optimize database query performance,task
+NullPointerException in user authentication module,technical
+TypeError when rendering user profile component with missing profile data,specific
+something's broken,vague
+implement user role management,feature
+optimize database queries for performance,task
+NullPointerException in user authentication service,technical
+TypeError in cart checkout process when applying discount code,specific
+something's not right,vague
+implement user-defined dashboards,feature
+optimize database query performance,task
+NullPointerException in user authentication service,technical
+TypeError in fetchData function within userProfile.js,specific
+something isn't right,vague
+implement multi-language support,feature
+optimize database query performance,task
+NullReferenceException in UserService during account creation,technical
+TypeError in cart.js when updating item quantity,specific
+something's wrong with my account,vague
+implement multi-language support,feature
+optimize database queries for performance,task
+SQLSyntaxError in user authentication module,technical
+IndexOutOfBoundsException in FileUploaderService.java line 45,specific
+something is off,vague
+implement user role-based access control,feature
+optimize database query performance,task
+SQLIntegrityConstraintViolationException on user registration,technical
+TypeError in cart.js when adding item to empty cart,specific
+something went wrong,vague
+integrate real-time collaboration tools,feature
+optimize database query performance,task
+NullPointerException in user authentication process,technical
+TypeError when parsing JSON response from weather API,specific
+something's off with my account,vague
+implement multi-language support,feature
+optimize database query performance,task
+NullPointerException in user authentication service,technical
+Race condition in order processing endpoint under high load,specific
+something's wrong with the website,vague
+implement multi-language support,feature
+optimize database queries for performance,task
+NullPointerException in user authentication module,technical
+TypeError when rendering user profile component in React,specific
+something is broken,vague
+enhance user profile customization options,feature
+optimize database query performance,task
+NullPointerException in UserService during authentication process,technical
+TypeError when accessing user profile API with invalid user ID,specific
+something's broken,vague
+implement user profile customization options,feature
+optimize database query performance,task
+NullPointerException in Spring Boot REST controller,technical
+TypeError when rendering user profile component in React,specific
+something's wrong with my account,vague
+enable multi-language support,feature
+optimize database query performance,task
+NullPointerException in user authentication service,technical
+TypeError in payment gateway integration with Stripe API,specific
+something's broken,vague
+enhance user profile customization options,feature
+optimize database query performance,task
+NullPointerException in user authentication service,technical
+IndexOutOfBoundsException in getUserList() method of UserService class,specific
+something's broken,vague
+implement user tagging system,feature
+optimize database query performance,task
+NullReferenceException in user authentication module,technical

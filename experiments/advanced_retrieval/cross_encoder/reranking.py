@@ -33,7 +33,7 @@ def tokenize(text):
 def load_search_system():
     """Load bi-encoder search system"""
 
-    backlog_path = Path("evaluation/synthetic_data/synthetic_backlog.csv")
+    backlog_path = Path("evaluation/synthetic_data/synthetic_backlog_from_queries.csv")
     backlog_df = pd.read_csv(backlog_path)
 
     backlog_df['combined_text'] = (
@@ -291,7 +291,7 @@ def main():
     search_system = load_search_system()
 
     print("\nRunning cross-encoder reranking evaluation...")
-    test_set_path = Path("evaluation/test_sets/test_set_compact.csv")
+    test_set_path = Path("evaluation/test_sets/test_set_llm_compact.csv")
 
     # Test with MiniLM cross-encoder (fast, good balance)
     results = evaluate_reranking(test_set_path, search_system, 'cross-encoder/ms-marco-MiniLM-L-6-v2')

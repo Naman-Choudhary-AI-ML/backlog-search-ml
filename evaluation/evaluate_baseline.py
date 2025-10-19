@@ -52,7 +52,9 @@ def build_search_system(backlog_df):
     backlog_df['combined_text'] = (
         backlog_df['Title'].fillna('') + ". " +
         backlog_df['Description'].fillna('') + ". " +
-        backlog_df['Tags'].fillna('')
+        backlog_df['Type'].fillna('') + " " +
+        backlog_df['Component'].fillna('') + " " +
+        backlog_df['Severity'].fillna('')
     )
     backlog_df['combined_text'] = backlog_df['combined_text'].str.lower()
 
@@ -336,10 +338,10 @@ def main():
 
     # Load synthetic backlog
     print("\n1. Loading synthetic backlog...")
-    backlog_path = Path("evaluation/synthetic_data/synthetic_backlog.csv")
+    backlog_path = Path("evaluation/synthetic_data/synthetic_backlog_from_queries.csv")
 
     if not backlog_path.exists():
-        print("Error: synthetic_backlog.csv not found.")
+        print("Error: synthetic_backlog_from_queries.csv not found.")
         return
 
     backlog_df = pd.read_csv(backlog_path)
@@ -347,10 +349,10 @@ def main():
 
     # Load test set
     print("\n2. Loading test set...")
-    test_set_path = Path("evaluation/test_sets/test_set_compact.csv")
+    test_set_path = Path("evaluation/test_sets/test_set_llm_compact.csv")
 
     if not test_set_path.exists():
-        print("Error: test_set_compact.csv not found.")
+        print("Error: test_set_llm_compact.csv not found.")
         return
 
     queries_data = load_test_set(test_set_path)
